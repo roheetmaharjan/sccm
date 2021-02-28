@@ -62,29 +62,3 @@
         </div>
     </div>
 </section>
-<style>
-    .job-box {
-        background-color: #FFFFFF;
-        border: 1px solid #C5DBE6;
-        padding: 2rem;
-        text-align: left;
-        margin-bottom: 3rem;
-    }
-
-    .job-box .job-location {
-        color: #21A690;
-        font-size: 1.5rem;
-        margin-bottom: 0;
-        font-weight: 600;
-    }
-    .job-box .job-decription{
-        font-size: 1.5rem;
-        margin-bottom: 3rem;
-        color: #333333;
-    }
-    .job-box .job-title {
-        font-size: 3rem;
-        margin: 3rem 0;
-        color:#333333;
-    }
-</style>

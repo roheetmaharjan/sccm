@@ -250,29 +250,25 @@ p {
 	overflow-y: auto;
 }
 
-.menu-with-image-box .vertical-menu-list::-webkit-scrollbar,
-.menu-with-image-box .vertical-menu-list ul::-webkit-scrollbar {
+.menu-with-image-box .vertical-menu-list::-webkit-scrollbar, .menu-with-image-box .vertical-menu-list ul::-webkit-scrollbar {
 	width: 10px;
 }
 
 /* Track */
 
-.menu-with-image-box .vertical-menu-list::-webkit-scrollbar-track,
-.menu-with-image-box .vertical-menu-list ul::-webkit-scrollbar-track {
+.menu-with-image-box .vertical-menu-list::-webkit-scrollbar-track, .menu-with-image-box .vertical-menu-list ul::-webkit-scrollbar-track {
 	background: #f1f1f1;
 }
 
 /* Handle */
 
-.menu-with-image-box .vertical-menu-list::-webkit-scrollbar-thumb,
-.menu-with-image-box .vertical-menu-list ul::-webkit-scrollbar-thumb {
+.menu-with-image-box .vertical-menu-list::-webkit-scrollbar-thumb, .menu-with-image-box .vertical-menu-list ul::-webkit-scrollbar-thumb {
 	background: #ccc;
 }
 
 /* Handle on hover */
 
-.menu-with-image-box .vertical-menu-list::-webkit-scrollbar-thumb:hover,
-.menu-with-image-box .vertical-menu-list ul::-webkit-scrollbar-thumb:hover {
+.menu-with-image-box .vertical-menu-list::-webkit-scrollbar-thumb:hover, .menu-with-image-box .vertical-menu-list ul::-webkit-scrollbar-thumb:hover {
 	background: #ddd;
 }
 
@@ -778,7 +774,8 @@ p {
 	background-color: #555;
 	color: #fff;
 }
-@media(max-width: 992px){
+
+@media(max-width: 992px) {
 	#header .apply-btn {
 		margin-right: 8rem;
 		margin-top: 1rem;
@@ -977,8 +974,9 @@ p {
 }
 
 /* Blog Post */
+
 .post {
-    margin-bottom: 3rem;
+	margin-bottom: 3rem;
 }
 
 .post .post-image {
@@ -1008,15 +1006,15 @@ p {
 }
 
 .post .post-content .post-description {
-    font-size: 1.5rem;
-    margin-bottom: 3rem;
-    font-weight: 500;
-    line-height: 1.3;
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    color: #333333;
+	font-size: 1.5rem;
+	margin-bottom: 3rem;
+	font-weight: 500;
+	line-height: 1.3;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	color: #333333;
 }
 
 .post .post-content .post-link {
@@ -1026,6 +1024,7 @@ p {
 	font-weight: 600;
 	color: #D90000;
 }
+
 .post .post-content .post-date {
 	font-size: 1.5rem;
 	font-weight: 600;
@@ -1034,6 +1033,7 @@ p {
 	max-width: 126px;
 	border-top: .5rem solid #21A690;
 }
+
 .post .post-content .post-link i {
 	margin-left: 0.8rem;
 	font-size: 1rem;
@@ -1146,7 +1146,24 @@ p {
 	max-width: 70rem;
 	width: 100%;
 }
+
+@media(max-width: 640px) {
+	.title-overlap-post {
+		padding-left: 0;
+	}
+	.title-overlap-post .title {
+		margin-top: 0;
+		position: relative;
+		color: #333333;
+		left: 0;
+		top: 0;
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
 /* Feature News */
+
 .feature-post .feature-post-img {
 	margin-bottom: 3.5rem;
 	min-height: 50rem;
@@ -1183,4 +1200,87 @@ p {
 	border-top: .5rem solid #21A690;
 }
 
-/* News Post */
+/* Jobs */
+
+.job-box {
+	background-color: #FFFFFF;
+	border: 1px solid #C5DBE6;
+	padding: 2rem;
+	text-align: left;
+	margin-bottom: 3rem;
+}
+
+.job-box .job-location {
+	color: #21A690;
+	font-size: 1.5rem;
+	margin-bottom: 0;
+	font-weight: 600;
+}
+
+.job-box .job-decription {
+	font-size: 1.5rem;
+	margin-bottom: 3rem;
+	color: #333333;
+}
+
+.job-box .job-title {
+	font-size: 3rem;
+	margin: 3rem 0;
+	color: #333333;
+}
+
+/* Conatact Us */
+
+.company-location {
+	padding: 6rem;
+}
+
+.company-location .company-location-detail {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	min-height: 45rem;
+}
+
+.company-location .company-location-title {
+	color: #21A690;
+	font-size: 2.5rem;
+	font-weight: 900;
+	margin-bottom: 2.5rem;
+}
+
+.company-location .company-location-sub-title {
+	font-size: 2rem;
+	margin-bottom: 4rem;
+	font-weight: 700;
+	color: #333333;
+}
+
+.company-location .company-location-time {
+	font-size: 2rem;
+	margin-bottom: 4rem;
+}
+
+.company-location .company-location-time span {
+	font-size: 1.5rem;
+	display: block;
+}
+
+.company-location .map iframe {
+	width: 100%;
+	height: 45rem;
+}
+
+.company-location .company-detail li {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	font-weight: 500;
+}
+
+.company-location .company-detail li span {
+	margin-right: 0;
+	width: 12rem;
+	display: inline-block;
+}
