@@ -1,18 +1,18 @@
 
 $(document).ready(function() {
 
-    $("#hero-banner").owlCarousel({
-        navigation: true,
-        slideSpeed: 300,
-        paginationSpeed: 400,
-        navText: [
-            "<i class='fas fa-angle-left'></i>",
-            "<i class='fas fa-angle-right'></i>"
-        ],
-        singleItem: true,
-        pagination: false,
-        rewindSpeed: 500
-    });
+    // $("#hero-banner").owlCarousel({
+    //     navigation: true,
+    //     slideSpeed: 300,
+    //     paginationSpeed: 400,
+    //     navText: [
+    //         "<i class='fas fa-angle-left'></i>",
+    //         "<i class='fas fa-angle-right'></i>"
+    //     ],
+    //     singleItem: true,
+    //     pagination: false,
+    //     rewindSpeed: 500
+    // });
     /* Mega menu*/
     $('#header nav').megaMenu({
         logo_align: 'left',
@@ -48,4 +48,12 @@ $(document).ready(function() {
         }
     );
 
+    const items = document.querySelectorAll(".accordion a");
+
+    function toggleAccordion() {
+        this.classList.toggle('active');
+        this.nextElementSibling.classList.toggle('active');
+    }
+    
+    items.forEach(item => item.addEventListener('click', toggleAccordion));
 });

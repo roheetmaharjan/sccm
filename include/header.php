@@ -38,17 +38,27 @@
 	<!-- Plugins -->
 
 	<!-- jQuery -->
-	<script src="assets/plugins/jquery-2.2.4.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap Js -->
+	<script src="assets/plugins/bootstrap/popper.min.js"></script>
+	<script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
+
+	<!-- Owl Carousel -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js"></script> -->
+
 	<!-- Seelct Picker -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
-	<!-- Owl Carousel -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+	
 	<!-- Fixed Header When Scroll -->
 	<script src="assets/plugins/scrolltofixed/jquery-scrolltofixed.js" type="text/javascript"></script>
+
 	<!-- Mega Menu -->
 	<script src="assets/plugins/menu/mega_menu.js" type="text/javascript"></script>
+
 	<!-- Smooth Scroll -->
 	<script src="assets/plugins/jquery.easings.min.js" type="text/javascript"></script>
+
 	<!-- Custom Js-->
 	<script src="assets/js/main.js"></script>
 </head>
@@ -80,8 +90,8 @@
 								<li><a href="./library.php">Library</a></li>
 								<li><a href="./news.php">News</a></li>
 								<li><a href="./careers.php">Careers</a></li>
-								<li><a href="#">Contact Us</a></li>
-								<li><a href="#">Faq</a></li>
+								<li><a href="./contact.php">Contact Us</a></li>
+								<li><a href="./faq.php">Faq</a></li>
 								<li><a href="#"><i class="fas fa-search"></i></a></li>
 							</ul>
 						</div>
@@ -90,7 +100,9 @@
 			</div>
 
 			<div class="header-nav nav-fixed-scroll clearfix">
-				<nav class="mega-menu menuFullWidth <?php if ($page == 'page') {echo 'scroll-to-fixed-fixed';} ?>" style="z-index: 999; position: relative; top: 0px;">
+				<nav class="mega-menu menuFullWidth <?php if ($page == 'page') {
+														echo 'scroll-to-fixed-fixed';
+													} ?>" style="z-index: 999; position: relative; top: 0px;">
 					<!-- menu list items container -->
 					<div class="menu-list-items ">
 						<div class="container">
@@ -257,7 +269,7 @@
 															<h4>Project Management</h4>
 															<ul>
 																<li><a href="#"> BSB50820 Diploma of Project Management </a></li>
-																<li><a href="#">BSB60720 Advanced Diploma of Program Management  </a></li>
+																<li><a href="#">BSB60720 Advanced Diploma of Program Management </a></li>
 															</ul>
 														</div>
 														<!--grid column 3-->
@@ -265,7 +277,7 @@
 															<h4>Hospitality</h4>
 															<ul>
 																<li><a href="#"> SIT40516 Certificate IV in Commercial Cookery </a></li>
-																<li><a href="#">  SIT40716 Certificate IV in Patisserie</a></li>
+																<li><a href="#"> SIT40716 Certificate IV in Patisserie</a></li>
 																<li><a href="#"> SIT50416 Diploma of Hospitality Management </a></li>
 																<li><a href="#"> SIT60316 Advance Diploma of Hospitality Management </a></li>
 															</ul>

@@ -13,11 +13,10 @@ body {
 	line-height: 1.5;
 	overflow-x: hidden;
 	color: #333;
+	font-size: 2rem;
 }
 
 label i.fa-asterisk {
-	color: #ff444b;
-	font-size: .6rem;
 	position: relative;
 	top: -.5rem;
 }
@@ -1232,7 +1231,11 @@ p {
 /* Conatact Us */
 
 .company-location {
-	padding: 6rem;
+	padding: 4.5rem;
+	margin-bottom: 9rem;
+}
+.company-location:last-child{
+	margin-bottom: 0;
 }
 
 .company-location .company-location-detail {
