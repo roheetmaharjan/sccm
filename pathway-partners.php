@@ -59,6 +59,8 @@ include('include/header.php'); ?>
     <!-- ========== SECTION LATEST NEWS ================= -->
     <?php include('components/latest-news.php'); ?>
 
+    <!-- ========== MORE POST ================= -->
+    <?php include('components/explore-post.php'); ?>
 </div>
 
 <?php include('include/footer.php'); ?>

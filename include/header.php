@@ -173,7 +173,7 @@
 											</div>
 											<div class="mega-menu-footer">
 												<div class="container">
-													<h3><a href="#">Future Students <i class="fas fa-chevron-right"></i></a></h3>
+													<h3><a href="./future-students.php">Future Students <i class="fas fa-chevron-right"></i></a></h3>
 												</div>
 											</div>
 										</div>

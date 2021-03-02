@@ -85,8 +85,8 @@ include('include/header.php'); ?>
         </div>
     </section>
 
-    <!-- ========== SECTION LATEST NEWS ================= -->
-    <?php include('components/latest-news.php'); ?>
+    <!-- ========== MORE POST ================= -->
+    <?php include('components/explore-post.php'); ?>
 
 </div>
 

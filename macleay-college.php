@@ -46,7 +46,7 @@ include('include/header.php'); ?>
                         <div class="col-sm-6">
                             <div class="step">
                                 <figure class="step-icon">
-                                    <img src="./assets/img/step1.svg" alt="">
+                                    <img src="./assets/img/how-to-icon/step1.svg" alt="">
                                 </figure>
                                 <div class="step-content">
                                     <h3 class="step-title">Step 1</h3>
@@ -55,7 +55,7 @@ include('include/header.php'); ?>
                             </div>
                             <div class="step">
                                 <figure class="step-icon">
-                                    <img src="./assets/img/step2.svg" alt="">
+                                    <img src="./assets/img/how-to-icon/step2.svg" alt="">
                                 </figure>
                                 <div class="step-content">
                                     <h3 class="step-title">Step 2</h3>
@@ -64,7 +64,7 @@ include('include/header.php'); ?>
                             </div>
                             <div class="step">
                                 <figure class="step-icon">
-                                    <img src="./assets/img/step3.svg" alt="">
+                                    <img src="./assets/img/how-to-icon/step3.svg" alt="">
                                 </figure>
                                 <div class="step-content">
                                     <h3 class="step-title">Step 3</h3>
@@ -73,7 +73,7 @@ include('include/header.php'); ?>
                             </div>
                             <div class="step">
                                 <figure class="step-icon">
-                                    <img src="./assets/img/step4.svg" alt="">
+                                    <img src="./assets/img/how-to-icon/step4.svg" alt="">
                                 </figure>
                                 <div class="step-content">
                                     <h3 class="step-title">Step 4</h3>
@@ -82,7 +82,7 @@ include('include/header.php'); ?>
                             </div>
                             <div class="step">
                                 <figure class="step-icon">
-                                    <img src="./assets/img/step5.svg" alt="">
+                                    <img src="./assets/img/how-to-icon/step5.svg" alt="">
                                 </figure>
                                 <div class="step-content">
                                     <h3 class="step-title">Step 5</h3>
@@ -93,7 +93,7 @@ include('include/header.php'); ?>
                         <div class="col-sm-6">
                             <div class="step">
                                 <figure class="step-icon">
-                                    <img src="./assets/img/step6.svg" alt="">
+                                    <img src="./assets/img/how-to-icon/step6.svg" alt="">
                                 </figure>
                                 <div class="step-content">
                                     <h3 class="step-title">Step 6</h3>
@@ -102,7 +102,7 @@ include('include/header.php'); ?>
                             </div>
                             <div class="step">
                                 <figure class="step-icon">
-                                    <img src="./assets/img/step7.svg" alt="">
+                                    <img src="./assets/img/how-to-icon/step7.svg" alt="">
                                 </figure>
                                 <div class="step-content">
                                     <h3 class="step-title">Step 7</h3>
@@ -111,7 +111,7 @@ include('include/header.php'); ?>
                             </div>
                             <div class="step">
                                 <figure class="step-icon">
-                                    <img src="./assets/img/step8.svg" alt="">
+                                    <img src="./assets/img/how-to-icon/step8.svg" alt="">
                                 </figure>
                                 <div class="step-content">
                                     <h3 class="step-title">Step 8</h3>
@@ -120,7 +120,7 @@ include('include/header.php'); ?>
                             </div>
                             <div class="step">
                                 <figure class="step-icon">
-                                    <img src="./assets/img/step9.svg" alt="">
+                                    <img src="./assets/img/how-to-icon/step9.svg" alt="">
                                 </figure>
                                 <div class="step-content">
                                     <h3 class="step-title">Step 9</h3>
@@ -175,8 +175,9 @@ include('include/header.php'); ?>
         </div>
     </section>
 
-    <!-- ========== SECTION LATEST NEWS ================= -->
-    <?php include('components/latest-news.php'); ?>
+
+    <!-- ========== MORE POST ================= -->
+    <?php include('components/explore-post.php'); ?>
 
 </div>
 

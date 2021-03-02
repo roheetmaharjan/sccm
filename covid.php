@@ -2,7 +2,7 @@
 include('include/header.php'); ?>
 <div class="inner-page">
     <!-- Inner page banner -->
-    <section class="inner-page-banner" style="background-image: url(./assets/img/banner1.png);">
+    <section class="inner-page-banner radial-green-overlay" style="background-image: url(./assets/img/banner1.png);">
         <div class="container">
             <div class="inner-page-banner-content">
                 <h1>COVID-19 (Coronavirus)</h1>
