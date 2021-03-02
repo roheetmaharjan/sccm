@@ -577,25 +577,29 @@ p {
 .hero-banner .owl-nav button.owl-prev span{
 	display: none;
 }
-
+.hero-banner .owl-nav button.owl-next, .hero-banner .owl-nav button.owl-prev{
+	outline: none;
+}
 .hero-banner .owl-nav button.owl-next:after, .hero-banner .owl-nav button.owl-prev:after {
     content: '';
     display: inline-block;
     margin-top: 0;
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     position: relative;
-    top: 1.2rem;
+    top: 1.1rem;
     border-left: 2px solid #fff;
     border-bottom: 2px solid #fff;
 }
 
 .hero-banner .owl-nav button.owl-prev:after {
 	transform: rotate(45deg);
+	left: 0.5rem;
 }
 
 .hero-banner .owl-nav button.owl-next:after {
 	transform: rotate(220deg);
+	right: 0.5rem;
 }
 
 /* Inner Page Banner */
