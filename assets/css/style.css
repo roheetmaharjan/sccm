@@ -847,7 +847,7 @@ p {
 
 /* Hero Banner drop arrow */
 
-.smoothScroll {
+.hero-scroll-drop {
 	height: 2rem;
 	display: inline-block;
 	text-align: center;
@@ -860,12 +860,12 @@ p {
 	transform: translateX(-50%);
 }
 
-.smoothScroll:hover {
+.hero-scroll-drop:hover {
 	text-decoration: none;
 	color: #fff;
 }
 
-.smoothScroll .arrow {
+.hero-scroll-drop .arrow {
 	width: 2.5rem;
 	height: 2.5rem;
 	display: inline-block;
@@ -875,11 +875,11 @@ p {
 	-webkit-animation: bounce 1s infinite alternate;
 }
 
-.smoothScroll .arrow.down {
+.hero-scroll-drop .arrow.down {
 	transform: rotate(-45deg);
 }
 
-.smoothScroll .smoothscroll-text {
+.hero-scroll-drop .hero-scroll-drop-text {
 	text-transform: uppercase;
 	font-size: 1.2rem;
 	display: block;
@@ -1435,6 +1435,11 @@ p {
 }
 
 /* Vertical Nav */
+.vertical-nav {
+    position: sticky;
+    top: 14rem;
+    z-index: 11;
+}
 
 .vertical-nav a {
 	font-size: 2.5rem;

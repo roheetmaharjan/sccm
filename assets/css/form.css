@@ -2,34 +2,117 @@
 	margin-bottom: 3rem;
 	position: relative;
 }
+.with-custom-icon .form-control{
+	padding-right: 10rem;
+	position: relative;
+}
+.with-custom-icon .form-icon {
+    position: absolute;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    top: 0;
+    right: 0;
+    font-size: 3rem;
+    color: #fff;
+    width: 10rem;
+    height: 10rem;
+    line-height: 2rem;
+    text-align: center;
+}
+.with-custom-icon .form-icon:focus{
+	outline: none;
+}
+.with-custom-icon .form-icon img {
+    width: 5rem;
+    display: inline-block;
+}
+/* Form Control */
 
 .form-control {
 	border-width: 2px;
-	font-size: 2rem;
+	font-size: 1.2rem;
 	min-height: 6rem;
 	border-radius: 0;
+	color: #879CA7;
+	padding: .375rem 2rem;
+	font-style: italic;
 	font-weight: 600;
 	border-color: #C5DBE6;
 	transition: 0.3s all ease;
 }
+.form-control::placeholder {
+	color: #879CA7;
+	font-style: italic;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
 
+.form-control::-webkit-input-placeholder {
+	color: #879CA7;
+	font-style: italic;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.form-control:-ms-input-placeholder {
+	color: #879CA7;
+	font-style: italic;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
 .form-control:focus {
 	border-color: #C5DBE6;
 	box-shadow: none;
 }
 
+/* For Large Form  */
 .form-control-lg {
 	padding: 2.3rem 2rem;
 	min-height: 10rem;
 	border-width: 0.4rem;
+	font-size: 2rem;
+	font-weight: 700;
+	letter-spacing: .01rem;
+}
+.form-control-lg {
+	padding: 2.3rem 2rem;
+	min-height: 10rem;
+	border-width: 0.4rem;
+	font-size: 2rem;
+	font-weight: 700;
+	letter-spacing: .01rem;
+}
+.form-control-lg::placeholder {
+	color: #fff;
+	font-style: italic;
+	font-size: 2rem;
+	font-weight: 700;
+	letter-spacing: .01rem;
 }
 
+.form-control-lg::-webkit-input-placeholder {
+	color: #fff;
+	font-style: italic;
+	font-size: 2rem;
+	font-weight: 700;
+	letter-spacing: .01rem;
+}
+
+.form-control-lg:-ms-input-placeholder {
+	color: #fff;
+	font-style: italic;
+	font-size: 2rem;
+	font-weight: 700;
+	letter-spacing: .01rem;
+}
+
+/* For outline Form  */
 .form-outline {
 	background-color: transparent;
 	border-color: #fff;
 	color: #fff;
 }
-
 .form-outline::placeholder {
 	color: #fff;
 	font-style: italic
@@ -44,7 +127,7 @@
 	color: #fff;
 	font-style: italic
 }
-
+/* Contact Form */
 .get-in-touch .title {
 	text-align: center;
 	text-transform: uppercase;

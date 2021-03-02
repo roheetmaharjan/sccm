@@ -47,9 +47,9 @@
 		</div>
 	</div>
 </div>
-<a class="smoothScroll" href="#box-with-bg-img">
+<a class="smoothScroll hero-scroll-drop" href="#box-with-bg-img">
 	<span class="arrow down"></span>
-	<span class="smoothscroll-text">Scroll</span>
+	<span class="hero-scroll-drop-text">Scroll</span>
 </a>
 
 <!-- ========================= SECTION CONTENT ========================= -->

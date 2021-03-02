@@ -45,12 +45,6 @@ $(document).ready(function() {
         }
     });
 
-    /* Select Picker */
-    $('.selectpicker').selectpicker(
-        {
-            liveSearchPlaceholder: 'Placeholder text'
-        }
-    );
 
     //FAQ Accordion
     const items = document.querySelectorAll(".accordion a");

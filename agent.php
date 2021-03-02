@@ -18,37 +18,31 @@ include('include/header.php'); ?>
             <div class="row">
                 <div class="col-sm-6 col-md-4">
                     <div class="form-group">
-                        <label class="search">
-                            <input type="text" placeholder="key words">
-                        </label>
+                        <input type="text" placeholder="key words" class="form-control">
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
                     <div class="form-group">
-                        <label class="select">
-                            <select>
-                                <option>--Select Country--</option>
-                                <option>kathmandu</option>
-                                <option>Pokhara</option>
-                                <option>Bhaktapur</option>
-                                <option>Dhading</option>
-                                <option>Sindhuli</option>
-                            </select>
-                        </label>
+                        <select class="form-control">
+                            <option>--Select Country--</option>
+                            <option>kathmandu</option>
+                            <option>Pokhara</option>
+                            <option>Bhaktapur</option>
+                            <option>Dhading</option>
+                            <option>Sindhuli</option>
+                        </select>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
                     <div class="form-group">
-                        <label class="select">
-                            <select>
-                                <option>--Show All--</option>
-                                <option>kathmandu</option>
-                                <option>Pokhara</option>
-                                <option>Bhaktapur</option>
-                                <option>Dhading</option>
-                                <option>Sindhuli</option>
-                            </select>
-                        </label>
+                        <select class="form-control">
+                            <option>--Show All--</option>
+                            <option>kathmandu</option>
+                            <option>Pokhara</option>
+                            <option>Bhaktapur</option>
+                            <option>Dhading</option>
+                            <option>Sindhuli</option>
+                        </select>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-2">
