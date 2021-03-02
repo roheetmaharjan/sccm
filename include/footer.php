@@ -1,18 +1,18 @@
 <!-- ========== CALL TO ACTION ================= -->
 <section class="cta section-padding" style="background-image: url(./assets/img/cta.png);">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 col-md-6">
-				<h1 class="cta-title"><span class="text-green">WE ARE SCCM</span> ARE YOU?</h1>
-			</div>
-			<div class="col-sm-12 col-md-6">
-				<div class="cta-btn">
-					<a href="#" class="btn btn-outline-light">Get a brochure</a>
-					<a href="#" class="btn btn-danger">Apply Online</a>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h1 class="cta-title"><span class="text-green">WE ARE SCCM</span> ARE YOU?</h1>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="cta-btn">
+                    <a href="#" class="btn btn-outline-light">Get a brochure</a>
+                    <a href="#" class="btn btn-danger">Apply Online</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <!-- ========== FOOTER ================= -->
 <footer class="footer">
@@ -105,6 +105,24 @@
         </div>
     </div>
 </footer>
+<script>
+    $('.hero-banner.owl-carousel').owlCarousel({
+        loop: true,
+        nav: true,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    })
+</script>
 
 </body>
 

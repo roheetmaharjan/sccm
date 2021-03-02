@@ -1,7 +1,7 @@
 <?php include('include/header.php'); ?>
 <!-- ========================= BANNER ========================= -->
-<section id="hero-banner" class="hero-banner owl-carousel">
-	<div class="hero-banner-slide" style="background-image: url(./assets/img/banner1.png);">
+<div class="hero-banner owl-carousel">
+    <div class="hero-banner-slide" style="background-image: url(./assets/img/banner1.png);">
 		<div class="container">
 			<div class="hero-banner-content">
 				<h1>COVID-19 (Coronavirus)</h1>
@@ -28,7 +28,25 @@
 			</div>
 		</div>
 	</div>
-</section>
+	<div class="hero-banner-slide" style="background-image: url(./assets/img/banner1.png);">
+		<div class="container">
+			<div class="hero-banner-content">
+				<h1>COVID-19 (Coronavirus)</h1>
+				<p>Find the latest updates on the COVID-19 situation for applicants, students and staff</p>
+				<a href="#" class="btn btn-outline-light btn-lg">Know More</a>
+			</div>
+		</div>
+	</div>
+	<div class="hero-banner-slide" style="background-image: url(./assets/img/banner1.png);">
+		<div class="container">
+			<div class="hero-banner-content">
+				<h1>COVID-19 (Coronavirus)</h1>
+				<p>Find the latest updates on the COVID-19 situation for applicants, students and staff</p>
+				<a href="#" class="btn btn-outline-light btn-lg">Know More</a>
+			</div>
+		</div>
+	</div>
+</div>
 <a class="smoothScroll" href="#box-with-bg-img">
 	<span class="arrow down"></span>
 	<span class="smoothscroll-text">Scroll</span>
@@ -352,6 +370,7 @@
 		<h1 class="overlay-text">SYDNEY CITY COLLEGE OF MANAGEMENT</h1>
 	</div>
 </section>
+
 
 
 <?php include('include/footer.php'); ?>

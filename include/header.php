@@ -15,8 +15,7 @@
 	<link href="assets/plugins/menu/mega_menu.css" rel="stylesheet" type="text/css" />
 
 	<!-- Owl Carousel CSS -->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" rel="stylesheet" type="text/css" />
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" rel="stylesheet" type="text/css" />
+	<link href="assets\plugins\owl-carousel\assets\owl.carousel.min.css" rel="stylesheet" type="text/css" />
 
 	<!-- Select Picker -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
@@ -38,14 +37,15 @@
 	<!-- Plugins -->
 
 	<!-- jQuery -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="http://iprototype.thecommunitycloud.com/community/assets/plugins/jquery.js"></script>
+	<script src="http://iprototype.thecommunitycloud.com/community/assets/plugins/jquery-ui-1.10.3.min.js"></script>
 
 	<!-- Bootstrap Js -->
-	<script src="assets/plugins/bootstrap/popper.min.js"></script>
+	<!-- <script src="assets/plugins/bootstrap/popper.min.js"></script> -->
 	<script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
 
 	<!-- Owl Carousel -->
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js"></script> -->
+	<script src="assets\plugins\owl-carousel\owl.carousel.min.js"></script>
 
 	<!-- Seelct Picker -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
