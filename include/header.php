@@ -64,7 +64,6 @@
 </head>
 
 <body>
-	<b class="screen-overlay"></b>
 	<!-- ========================= HEADER ========================= -->
 
 	<header id="header">
@@ -101,7 +100,7 @@
 
 			<div class="header-nav nav-fixed-scroll clearfix">
 				<nav class="mega-menu menuFullWidth <?php if ($page == 'page') {
-														echo 'scroll-to-fixed-fixed';
+														echo 'remove-fixed';
 													} ?>" style="z-index: 999; position: relative; top: 0px;">
 					<!-- menu list items container -->
 					<div class="menu-list-items ">
