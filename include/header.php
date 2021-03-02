@@ -127,18 +127,18 @@
 													<div class="grid-row">
 														<!--grid column 3-->
 														<div class="grid-col-4">
-															<h4><a href="#"> Macleay College </a></h4>
+															<h4><a href="./macleay-college.php"> Macleay College </a></h4>
 														</div>
 														<!--grid column 3-->
 														<div class="grid-col-4">
-															<h4><a href="#"> Flinders </a></h4>
+															<h4><a href="./flinders-university.php"> Flinders </a></h4>
 														</div>
 													</div>
 												</div>
 											</div>
 											<div class="mega-menu-footer">
 												<div class="container">
-													<h3><a href="#">Pathway partners <i class="fas fa-chevron-right"></i></a> </h3>
+													<h3><a href="./pathway-partners.php">Pathway partners <i class="fas fa-chevron-right"></i></a> </h3>
 												</div>
 											</div>
 										</div>

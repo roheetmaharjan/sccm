@@ -24,3 +24,8 @@
     text-align: right;
     line-height: 9rem;
 }
+.table  .table-head-img{
+    float: right;
+    margin-bottom: 0;
+    max-width: 12rem;
+}

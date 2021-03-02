@@ -31,8 +31,8 @@ include('include/header.php'); ?>
                         <li><a href="#">Bachelor of Advertisement and Media</a></li>
                         <li><a href="#">Bachelor of Digital Media</a></li>
                     </ul>
-                    <h5>Start your career from day one</h5>
-                    <ul>
+                    <h5 class="font-weight-bold">Start your career from day one</h5>
+                    <ul class="font-weight-bold">
                         <li>Receive credit for your current studies</li>
                         <li> Flexible Timetable Options (Day and Evening classes available)</li>
                         <li> 3 day a week timetable</li>
@@ -40,7 +40,8 @@ include('include/header.php'); ?>
                         <li> Project-based learning</li>
                         <li> Up to 184 hours of Industry Internships</li>
                     </ul>
-                    <h5>How to apply for package programs</h5>
+                    <!-- How To Steps -->
+                    <h5 class="font-weight-bold">How to apply for package programs</h5>
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="step">
@@ -138,47 +139,34 @@ include('include/header.php'); ?>
             <table class="table table-bordered">
                 <thead>
                     <tr>
-                        <th width="30%">SCCM Course <figure class="float-right mb-0"><img src="./assets/img/logo.svg" width="100" alt=""></figure></th>
-                        <th width="30%">Macleay <figure class="float-right mb-0"><img src="./assets/img/macleay-logo.svg" width="100" alt=""></figure></th>
+                        <th width="30%">SCCM Course <figure class="table-head-img"><img src="./assets/img/logo.svg" alt=""></figure></th>
+                        <th width="30%">Macleay <figure class="table-head-img"><img src="./assets/img/macleay-logo.svg" alt=""></figure></th>
                         <th width="10%">Credit Eligible</th>
                         <th width="40%">Remaining Duration to complete the Course at Macleay</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>FNS50217 Diploma in Accounting <br>
-                            FNS60217 Advanced Diploma in Accounting  </td>
-                        <td>Bachelors of Business (Accounting)</td>
-                        <td>8 units</td>
-                        <td>16 units</td>
+                        <td>FNS50217 Diploma in Accounting  </td>
+                        <td>Bachelors of Business (Accounting) <br> Bachelor of Business Economics <br> Bachelor of Finance</td>
+                        <td>36 units</td>
+                        <td>72 units</td>
                     </tr>
                     <tr>
-                        <td>BSB50618 Diploma in Human Resources Management </td>
-                        <td>Bachelors of Business</td>
-                        <td>8 units</td>
-                        <td>16 units</td>
+                        <td>BSB50618-Diploma of Human resource Management </td>
+                        <td>Bachelor of Business (Human Resource Management) <br> Bachelor of Business</td>
+                        <td>36 units</td>
+                        <td>72 units</td>
                     </tr>
                     <tr>
-                        <td>ICT50118 Diploma in Information Technology <br> ICT60515 Advanced Diploma in Computer Systems Technology CRICOS CODE </td>
-                        <td>Bachelors of Digital Media</td>
-                        <td>6 units</td>
-                        <td>16 units</td>
+                        <td>FNS60217-Advanced Diploma of Accounting </td>
+                        <td>Bachelors of Business (Accounting) <br> Bachelor of Business Economics <br> Bachelor of Finance</td>
+                        <td>54 units</td>
+                        <td>54 units</td>
                     </tr>
                     <tr>
-                        <td>BSB51918 Diploma of Leadership & Management <br> BSB61015 Advanced Diploma in Leadership & Management</td>
-                        <td>Bachelors of Business</td>
-                        <td>6 units</td>
-                        <td>16 units</td>
-                    </tr>
-                    <tr>
-                        <td>SIT50416 Diploma of Hospitality Management </td>
-                        <td>Bachelors of Business  (Travel Tourism)</td>
-                        <td>6 units</td>
-                        <td>16 units</td>
-                    </tr>
-                    <tr>
-                        <td>SIT60316 Advanced Diploma of Hospitality Management </td>
-                        <td>Bachelors of Business  (Travel Tourism)</td>
+                        <td>ICT50118 Diploma of Information Technology</td>
+                        <td>Bachelor of IT (Cybersecurity and Network Systems) <br> Bachelor of Computer Science <br>Bachelor of Computer Science (AI)</td>
                         <td>6 units</td>
                         <td>16 units</td>
                     </tr>

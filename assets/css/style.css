@@ -32,7 +32,10 @@ img {
 a {
 	color: #EE0000;
 }
-
+a:hover {
+    color: #21A690;
+    text-decoration: underline;
+}
 ul {
 	margin-bottom: 2rem;
 }
