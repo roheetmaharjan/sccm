@@ -47,7 +47,7 @@ $(document).ready(function() {
 
 
     //FAQ Accordion
-    const items = document.querySelectorAll(".accordion a");
+    const items = document.querySelectorAll(".accordion .head");
 
     function toggleAccordion() {
         this.classList.toggle('active');

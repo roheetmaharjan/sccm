@@ -31,14 +31,14 @@ include('include/header.php'); ?>
                         <h3 class="tabs-title">Student Support Related Questions</h3>
                         <div class="accordion">
                             <div class="accordion-item">
-                                <a class="active">How do I make an appointment?</a>
+                                <div class="head active">How do I make an appointment?</div>
                                 <div class="content active">
                                     <p>To make an appointment call and speak to our friendly reception staff</p>
                                     <p>(08) 6118 8485 or send email to reception@orionspecialist.com.au</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>Do I need a referral?</a>
+                                <div class="head">Do I need a referral?</div>
                                 <div class="content">
                                     <p>If you are a Medicare card holder and wish to claim a rebate from Medicare it is required to have a referral from either your GP or another specialist. GP referral is preferred as it lasts 12 months, whereas a specialist referral is valid for 3 months only.
                                     </p>
@@ -47,22 +47,22 @@ include('include/header.php'); ?>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>I’m on my period. Should I reschedule my appointment?</a>
+                                <div class="head">I’m on my period. Should I reschedule my appointment?</div>
                                 <div class="content">
                                     <p>No; as long as you are comfortable with it.
                                     </p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>How long will I have to wait for my first appointment?
-                                </a>
+                                <div class="head">How long will I have to wait for my first appointment?
+                                </div>
                                 <div class="content">
                                     <p>Most often appointments can be scheduled within 2 weeks.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>Do I need to have private health cover to see the specialist?
-                                </a>
+                                <div class="head">Do I need to have private health cover to see the specialist?
+                                </div>
                                 <div class="content">
                                     <p>
                                         No. Health Insurance unfortunately does not cover the costs of out of hospital expenses. But the advantage of having private health fund is that it may cover in hospital costs if you need any surgery.
@@ -70,8 +70,8 @@ include('include/header.php'); ?>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>What should I bring to my first consult?
-                                </a>
+                                <div class="head">What should I bring to my first consult?
+                                </div>
                                 <div class="content">
                                     <ul>
                                         <li>Medicare card</li>
@@ -83,30 +83,30 @@ include('include/header.php'); ?>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>How much does the consultation cost?
-                                </a>
+                                <div class="head">How much does the consultation cost?
+                                </div>
                                 <div class="content">
                                     <p>For further information on consultation fees and what days and times our Doctors are available please contact our rooms.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>Can you claim medicare on my behalf?
-                                </a>
+                                <div class="head">Can you claim medicare on my behalf?
+                                </div>
                                 <div class="content">
                                     <p>Yes, we will submit your claim to Medicare on your behalf. To be eligible, you will need to have your Medicare card, a valid referral letter and credit card which we can swipe into the EFTPOS machine.
                                     </p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>Do you have EFTPOS facility?
-                                </a>
+                                <div class="head">Do you have EFTPOS facility?
+                                </div>
                                 <div class="content">
                                     <p>For your convenience we accept EFTPOS transactions by all major debit and credit cards as well as cash.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>What do I need to do before my surgery?
-                                </a>
+                                <div class="head">What do I need to do before my surgery?
+                                </div>
                                 <div class="content">
                                     <p>Our specialists will discuss pre and post-surgery instructions in detail with you.
                                     </p>
@@ -118,14 +118,14 @@ include('include/header.php'); ?>
                         <h3 class="tabs-title">Admissions Related Questions</h3>
                         <div class="accordion">
                             <div class="accordion-item">
-                                <a class="active">How do I make an appointment?</a>
+                                <div class="head active">How do I make an appointment?</div>
                                 <div class="content active">
                                     <p>To make an appointment call and speak to our friendly reception staff</p>
                                     <p>(08) 6118 8485 or send email to reception@orionspecialist.com.au</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>Do I need a referral?</a>
+                                <div class="head">Do I need a referral?</div>
                                 <div class="content">
                                     <p>If you are a Medicare card holder and wish to claim a rebate from Medicare it is required to have a referral from either your GP or another specialist. GP referral is preferred as it lasts 12 months, whereas a specialist referral is valid for 3 months only.
                                     </p>
@@ -134,22 +134,22 @@ include('include/header.php'); ?>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>I’m on my period. Should I reschedule my appointment?</a>
+                                <div class="head">I’m on my period. Should I reschedule my appointment?</div>
                                 <div class="content">
                                     <p>No; as long as you are comfortable with it.
                                     </p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>How long will I have to wait for my first appointment?
-                                </a>
+                                <div class="head">How long will I have to wait for my first appointment?
+                                </div>
                                 <div class="content">
                                     <p>Most often appointments can be scheduled within 2 weeks.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>Do I need to have private health cover to see the specialist?
-                                </a>
+                                <div class="head">Do I need to have private health cover to see the specialist?
+                                </div>
                                 <div class="content">
                                     <p>
                                         No. Health Insurance unfortunately does not cover the costs of out of hospital expenses. But the advantage of having private health fund is that it may cover in hospital costs if you need any surgery.
@@ -157,8 +157,8 @@ include('include/header.php'); ?>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>What should I bring to my first consult?
-                                </a>
+                                <div class="head">What should I bring to my first consult?
+                                </div>
                                 <div class="content">
                                     <ul>
                                         <li>Medicare card</li>
@@ -170,30 +170,30 @@ include('include/header.php'); ?>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>How much does the consultation cost?
-                                </a>
+                                <div class="head">How much does the consultation cost?
+                                </div>
                                 <div class="content">
                                     <p>For further information on consultation fees and what days and times our Doctors are available please contact our rooms.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>Can you claim medicare on my behalf?
-                                </a>
+                                <div class="head">Can you claim medicare on my behalf?
+                                </div>
                                 <div class="content">
                                     <p>Yes, we will submit your claim to Medicare on your behalf. To be eligible, you will need to have your Medicare card, a valid referral letter and credit card which we can swipe into the EFTPOS machine.
                                     </p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>Do you have EFTPOS facility?
-                                </a>
+                                <div class="head">Do you have EFTPOS facility?
+                                </div>
                                 <div class="content">
                                     <p>For your convenience we accept EFTPOS transactions by all major debit and credit cards as well as cash.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>What do I need to do before my surgery?
-                                </a>
+                                <div class="head">What do I need to do before my surgery?
+                                </div>
                                 <div class="content">
                                     <p>Our specialists will discuss pre and post-surgery instructions in detail with you.
                                     </p>
@@ -205,14 +205,14 @@ include('include/header.php'); ?>
                         <h3 class="tabs-title">Accounts Related Questions</h3>
                         <div class="accordion">
                             <div class="accordion-item">
-                                <a class="active">How do I make an appointment?</a>
+                                <div class="head active">How do I make an appointment?</div>
                                 <div class="content active">
                                     <p>To make an appointment call and speak to our friendly reception staff</p>
                                     <p>(08) 6118 8485 or send email to reception@orionspecialist.com.au</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>Do I need a referral?</a>
+                                <div class="head">Do I need a referral?</div>
                                 <div class="content">
                                     <p>If you are a Medicare card holder and wish to claim a rebate from Medicare it is required to have a referral from either your GP or another specialist. GP referral is preferred as it lasts 12 months, whereas a specialist referral is valid for 3 months only.
                                     </p>
@@ -221,22 +221,22 @@ include('include/header.php'); ?>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>I’m on my period. Should I reschedule my appointment?</a>
+                                <div class="head">I’m on my period. Should I reschedule my appointment?</div>
                                 <div class="content">
                                     <p>No; as long as you are comfortable with it.
                                     </p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>How long will I have to wait for my first appointment?
-                                </a>
+                                <div class="head">How long will I have to wait for my first appointment?
+                                </div>
                                 <div class="content">
                                     <p>Most often appointments can be scheduled within 2 weeks.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>Do I need to have private health cover to see the specialist?
-                                </a>
+                                <div class="head">Do I need to have private health cover to see the specialist?
+                                </div>
                                 <div class="content">
                                     <p>
                                         No. Health Insurance unfortunately does not cover the costs of out of hospital expenses. But the advantage of having private health fund is that it may cover in hospital costs if you need any surgery.
@@ -244,8 +244,8 @@ include('include/header.php'); ?>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>What should I bring to my first consult?
-                                </a>
+                                <div class="head">What should I bring to my first consult?
+                                </div>
                                 <div class="content">
                                     <ul>
                                         <li>Medicare card</li>
@@ -257,30 +257,30 @@ include('include/header.php'); ?>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>How much does the consultation cost?
-                                </a>
+                                <div class="head">How much does the consultation cost?
+                                </div>
                                 <div class="content">
                                     <p>For further information on consultation fees and what days and times our Doctors are available please contact our rooms.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>Can you claim medicare on my behalf?
-                                </a>
+                                <div class="head">Can you claim medicare on my behalf?
+                                </div>
                                 <div class="content">
                                     <p>Yes, we will submit your claim to Medicare on your behalf. To be eligible, you will need to have your Medicare card, a valid referral letter and credit card which we can swipe into the EFTPOS machine.
                                     </p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>Do you have EFTPOS facility?
-                                </a>
+                                <div class="head">Do you have EFTPOS facility?
+                                </div>
                                 <div class="content">
                                     <p>For your convenience we accept EFTPOS transactions by all major debit and credit cards as well as cash.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a>What do I need to do before my surgery?
-                                </a>
+                                <div class="head">What do I need to do before my surgery?
+                                </div>
                                 <div class="content">
                                     <p>Our specialists will discuss pre and post-surgery instructions in detail with you.
                                     </p>

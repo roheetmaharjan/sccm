@@ -155,18 +155,18 @@
 														<!--grid column 3-->
 														<div class="grid-col-4">
 															<h4><a href="#"> Application </a></h4>
-															<h4><a href="#"> EOS framework and visa information </a></h4>
-															<h4><a href="#"> Living in Australia </a></h4>
+															<h4><a href="./eos-framework.php"> EOS framework and visa information </a></h4>
+															<h4><a href="./living-australia.php"> Living in Australia </a></h4>
 														</div>
 														<!--grid column 3-->
 														<div class="grid-col-4">
-															<h4><a href="#"> Courses </a></h4>
-															<h4><a href="#"> OHSC - Overseas student </a></h4>
+															<h4><a href="courses.php"> Courses </a></h4>
+															<h4><a href="ohsc.php"> OHSC - Overseas student health cover</a></h4>
 														</div>
 														<!--grid column 3-->
 														<div class="grid-col-4">
-															<h4><a href="#"> Intake dates </a></h4>
-															<h4><a href="#"> Important Information </a></h4>
+															<h4><a href="intakes-dates.php"> Intake dates </a></h4>
+															<h4><a href="important-links.php"> Important Information </a></h4>
 														</div>
 													</div>
 												</div>
@@ -220,7 +220,7 @@
 											</div>
 											<div class="mega-menu-footer">
 												<div class="container">
-													<h3><a href="#">Current Students <i class="fas fa-chevron-right"></i></a></h3>
+													<h3><a href="current-students.php">Current Students <i class="fas fa-chevron-right"></i></a></h3>
 												</div>
 											</div>
 										</div>

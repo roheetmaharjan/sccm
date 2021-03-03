@@ -50,57 +50,59 @@ include('include/header.php'); ?>
                 </div>
             </div>
             <!-- Agent-list -->
-            <table class="table table-bordered">
-                <thead>
-                    <tr>
-                        <th scope="col">Agent Name</th>
-                        <th scope="col">Address</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>AE Global </td>
-                        <td>Kathmandu</td>
-                    </tr>
-                    <tr>
-                        <td>AE Global </td>
-                        <td>Kathmandu</td>
-                    </tr>
-                    <tr>
-                        <td>AE Global </td>
-                        <td>Kathmandu</td>
-                    </tr>
-                    <tr>
-                        <td>AE Global </td>
-                        <td>Kathmandu</td>
-                    </tr>
-                    <tr>
-                        <td>AE Global </td>
-                        <td>Kathmandu</td>
-                    </tr>
-                    <tr>
-                        <td>AE Global </td>
-                        <td>Kathmandu</td>
-                    </tr>
-                    <tr>
-                        <td>AE Global </td>
-                        <td>Kathmandu</td>
-                    </tr>
-                    <tr>
-                        <td>AE Global </td>
-                        <td>Kathmandu</td>
-                    </tr>
-                    <tr>
-                        <td>AE Global </td>
-                        <td>Kathmandu</td>
-                    </tr>
-                    <tr>
-                        <td>AE Global </td>
-                        <td>Kathmandu</td>
-                    </tr>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Agent Name</th>
+                            <th scope="col">Address</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>AE Global </td>
+                            <td>Kathmandu</td>
+                        </tr>
+                        <tr>
+                            <td>AE Global </td>
+                            <td>Kathmandu</td>
+                        </tr>
+                        <tr>
+                            <td>AE Global </td>
+                            <td>Kathmandu</td>
+                        </tr>
+                        <tr>
+                            <td>AE Global </td>
+                            <td>Kathmandu</td>
+                        </tr>
+                        <tr>
+                            <td>AE Global </td>
+                            <td>Kathmandu</td>
+                        </tr>
+                        <tr>
+                            <td>AE Global </td>
+                            <td>Kathmandu</td>
+                        </tr>
+                        <tr>
+                            <td>AE Global </td>
+                            <td>Kathmandu</td>
+                        </tr>
+                        <tr>
+                            <td>AE Global </td>
+                            <td>Kathmandu</td>
+                        </tr>
+                        <tr>
+                            <td>AE Global </td>
+                            <td>Kathmandu</td>
+                        </tr>
+                        <tr>
+                            <td>AE Global </td>
+                            <td>Kathmandu</td>
+                        </tr>
 
-                </tbody>
-            </table>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </section>
 </div>

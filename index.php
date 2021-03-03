@@ -1,7 +1,7 @@
 <?php include('include/header.php'); ?>
 <!-- ========================= BANNER ========================= -->
 <div class="hero-banner owl-carousel">
-    <div class="hero-banner-slide" style="background-image: url(./assets/img/banner1.png);">
+	<div class="hero-banner-slide" style="background-image: url(./assets/img/banner1.png);">
 		<div class="container">
 			<div class="hero-banner-content">
 				<h1>COVID-19 (Coronavirus)</h1>
@@ -115,8 +115,8 @@
 								<li><a href="#">Certificate IV in Leadership and Management</a></li>
 								<li><a href="#">BSB51918 Diploma of Leadership and Management</a></li>
 								<li><a href="#">BSB50618 Diploma of Human Resources Management</a></li>
-								<li><a href="#">BSB50615 Diploma of Leadership and  Management</a></li>
-								<li><a href="#">BSB80615 Graduate Diploma of Leadership and  Management Learning</a></li>
+								<li><a href="#">BSB50615 Diploma of Leadership and Management</a></li>
+								<li><a href="#">BSB80615 Graduate Diploma of Leadership and Management Learning</a></li>
 							</ul>
 						</li>
 						<li>
@@ -163,10 +163,10 @@
 </section>
 
 <!-- ========== SECTION VOCATIONAL ================= -->
-<?php include('components/radial-green-section.php');?>
+<?php include('components/radial-green-section.php'); ?>
 
 <!-- ========== SECTION LATEST NEWS ================= -->
-<?php include('components/latest-news.php');?>
+<?php include('components/latest-news.php'); ?>
 
 <!-- ========== SECTION CLIENT ================= -->
 <!-- <section class="section-padding box-with-bg-text-wrp">
@@ -204,165 +204,181 @@
 	</div>
 </section> -->
 <!-- ========== SECTION VIDEO GALLERY ================= -->
-<section class="video-gallery">
-	<a href="#">
-		<div class="video-gallery-item">
-			<figure class="video-gallery-img"><img src="./assets/img/gallery1.png" alt=""></figure>
-			<div class="video-gallery-content">
-				<svg width="103px" height="102px" viewBox="0 0 103 102">
-					<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-						<g id="01-00-Index" transform="translate(-199.000000, -4107.000000)">
-							<g id="Students" transform="translate(0.000000, 3902.000000)">
-								<g id="Group-12">
-									<g id="Group-11" transform="translate(130.000000, 206.000000)">
-										<g id="Button/Round/50px" transform="translate(70.500000, 0.000000)">
-											<circle id="Background" stroke="#FFFFFF" stroke-width="2" cx="50" cy="50" r="50"></circle>
-											<g id="Icon/Plus" transform="translate(40.000000, 34.000000)" fill="#F5F9FC">
-												<polygon id="Background-1" points="2.00893847 28.620119 23.0557866 15.7421189 2.00893847 4.02857896"></polygon>
-												<path d="M0,0 L26,16 L0,32 L0,0 Z M3.00253296,26.6303711 L20.2835693,16 L3.00253296,5.36825562 L3.00253296,26.6303711 Z" id="Border"></path>
+<section class="row video-gallery no-gutters">
+	<div class="col-sm-12 col-md-4">
+		<a href="#">
+			<div class="video-gallery-item portrait-box">
+				<figure class="video-gallery-img"><img src="./assets/img/gallery1.png" alt=""></figure>
+				<div class="video-gallery-content">
+					<svg width="103px" height="102px" viewBox="0 0 103 102">
+						<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<g id="01-00-Index" transform="translate(-199.000000, -4107.000000)">
+								<g id="Students" transform="translate(0.000000, 3902.000000)">
+									<g id="Group-12">
+										<g id="Group-11" transform="translate(130.000000, 206.000000)">
+											<g id="Button/Round/50px" transform="translate(70.500000, 0.000000)">
+												<circle id="Background" stroke="#FFFFFF" stroke-width="2" cx="50" cy="50" r="50"></circle>
+												<g id="Icon/Plus" transform="translate(40.000000, 34.000000)" fill="#F5F9FC">
+													<polygon id="Background-1" points="2.00893847 28.620119 23.0557866 15.7421189 2.00893847 4.02857896"></polygon>
+													<path d="M0,0 L26,16 L0,32 L0,0 Z M3.00253296,26.6303711 L20.2835693,16 L3.00253296,5.36825562 L3.00253296,26.6303711 Z" id="Border"></path>
+												</g>
 											</g>
 										</g>
 									</g>
 								</g>
 							</g>
 						</g>
-					</g>
-				</svg>
-				<h5>Bachelor of Law Student </h5>
-				<p>Alisha Poudel, Nepal</p>
+					</svg>
+					<h5>Bachelor of Law Student </h5>
+					<p>Alisha Poudel, Nepal</p>
+				</div>
 			</div>
-		</div>
-	</a>
-	<a href="#">
-		<div class="video-gallery-item">
-			<figure class="video-gallery-img"><img src="./assets/img/gallery2.png" alt=""></figure>
-			<div class="video-gallery-content">
-				<svg width="103px" height="102px" viewBox="0 0 103 102">
-					<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-						<g id="01-00-Index" transform="translate(-199.000000, -4107.000000)">
-							<g id="Students" transform="translate(0.000000, 3902.000000)">
-								<g id="Group-12">
-									<g id="Group-11" transform="translate(130.000000, 206.000000)">
-										<g id="Button/Round/50px" transform="translate(70.500000, 0.000000)">
-											<circle id="Background" stroke="#FFFFFF" stroke-width="2" cx="50" cy="50" r="50"></circle>
-											<g id="Icon/Plus" transform="translate(40.000000, 34.000000)" fill="#F5F9FC">
-												<polygon id="Background-1" points="2.00893847 28.620119 23.0557866 15.7421189 2.00893847 4.02857896"></polygon>
-												<path d="M0,0 L26,16 L0,32 L0,0 Z M3.00253296,26.6303711 L20.2835693,16 L3.00253296,5.36825562 L3.00253296,26.6303711 Z" id="Border"></path>
+		</a>
+	</div>
+	<div class="col-sm-12 col-md-8">
+		<div class="row no-gutters">
+			<div class="col-sm-6 col-md-6">
+				<a href="#">
+					<div class="video-gallery-item">
+						<figure class="video-gallery-img"><img src="./assets/img/gallery2.png" alt=""></figure>
+						<div class="video-gallery-content">
+							<svg width="103px" height="102px" viewBox="0 0 103 102">
+								<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+									<g id="01-00-Index" transform="translate(-199.000000, -4107.000000)">
+										<g id="Students" transform="translate(0.000000, 3902.000000)">
+											<g id="Group-12">
+												<g id="Group-11" transform="translate(130.000000, 206.000000)">
+													<g id="Button/Round/50px" transform="translate(70.500000, 0.000000)">
+														<circle id="Background" stroke="#FFFFFF" stroke-width="2" cx="50" cy="50" r="50"></circle>
+														<g id="Icon/Plus" transform="translate(40.000000, 34.000000)" fill="#F5F9FC">
+															<polygon id="Background-1" points="2.00893847 28.620119 23.0557866 15.7421189 2.00893847 4.02857896"></polygon>
+															<path d="M0,0 L26,16 L0,32 L0,0 Z M3.00253296,26.6303711 L20.2835693,16 L3.00253296,5.36825562 L3.00253296,26.6303711 Z" id="Border"></path>
+														</g>
+													</g>
+												</g>
 											</g>
 										</g>
 									</g>
 								</g>
-							</g>
-						</g>
-					</g>
-				</svg>
+							</svg>
+						</div>
+					</div>
+				</a>
 			</div>
-		</div>
-	</a>
-	<a href="#">
-		<div class="video-gallery-item">
-			<figure class="video-gallery-img"><img src="./assets/img/gallery3.png" alt=""></figure>
-			<div class="video-gallery-content">
-				<svg width="103px" height="102px" viewBox="0 0 103 102">
-					<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-						<g id="01-00-Index" transform="translate(-199.000000, -4107.000000)">
-							<g id="Students" transform="translate(0.000000, 3902.000000)">
-								<g id="Group-12">
-									<g id="Group-11" transform="translate(130.000000, 206.000000)">
-										<g id="Button/Round/50px" transform="translate(70.500000, 0.000000)">
-											<circle id="Background" stroke="#FFFFFF" stroke-width="2" cx="50" cy="50" r="50"></circle>
-											<g id="Icon/Plus" transform="translate(40.000000, 34.000000)" fill="#F5F9FC">
-												<polygon id="Background-1" points="2.00893847 28.620119 23.0557866 15.7421189 2.00893847 4.02857896"></polygon>
-												<path d="M0,0 L26,16 L0,32 L0,0 Z M3.00253296,26.6303711 L20.2835693,16 L3.00253296,5.36825562 L3.00253296,26.6303711 Z" id="Border"></path>
+			<div class="col-sm-6 col-md-6">
+				<a href="#">
+					<div class="video-gallery-item">
+						<figure class="video-gallery-img"><img src="./assets/img/gallery3.png" alt=""></figure>
+						<div class="video-gallery-content">
+							<svg width="103px" height="102px" viewBox="0 0 103 102">
+								<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+									<g id="01-00-Index" transform="translate(-199.000000, -4107.000000)">
+										<g id="Students" transform="translate(0.000000, 3902.000000)">
+											<g id="Group-12">
+												<g id="Group-11" transform="translate(130.000000, 206.000000)">
+													<g id="Button/Round/50px" transform="translate(70.500000, 0.000000)">
+														<circle id="Background" stroke="#FFFFFF" stroke-width="2" cx="50" cy="50" r="50"></circle>
+														<g id="Icon/Plus" transform="translate(40.000000, 34.000000)" fill="#F5F9FC">
+															<polygon id="Background-1" points="2.00893847 28.620119 23.0557866 15.7421189 2.00893847 4.02857896"></polygon>
+															<path d="M0,0 L26,16 L0,32 L0,0 Z M3.00253296,26.6303711 L20.2835693,16 L3.00253296,5.36825562 L3.00253296,26.6303711 Z" id="Border"></path>
+														</g>
+													</g>
+												</g>
 											</g>
 										</g>
 									</g>
 								</g>
-							</g>
-						</g>
-					</g>
-				</svg>
+							</svg>
+						</div>
+					</div>
+				</a>
 			</div>
-		</div>
-	</a>
-	<a href="#">
-		<div class="video-gallery-item">
-			<figure class="video-gallery-img"><img src="./assets/img/gallery4.png" alt=""></figure>
-			<div class="video-gallery-content">
-				<svg width="103px" height="102px" viewBox="0 0 103 102">
-					<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-						<g id="01-00-Index" transform="translate(-199.000000, -4107.000000)">
-							<g id="Students" transform="translate(0.000000, 3902.000000)">
-								<g id="Group-12">
-									<g id="Group-11" transform="translate(130.000000, 206.000000)">
-										<g id="Button/Round/50px" transform="translate(70.500000, 0.000000)">
-											<circle id="Background" stroke="#FFFFFF" stroke-width="2" cx="50" cy="50" r="50"></circle>
-											<g id="Icon/Plus" transform="translate(40.000000, 34.000000)" fill="#F5F9FC">
-												<polygon id="Background-1" points="2.00893847 28.620119 23.0557866 15.7421189 2.00893847 4.02857896"></polygon>
-												<path d="M0,0 L26,16 L0,32 L0,0 Z M3.00253296,26.6303711 L20.2835693,16 L3.00253296,5.36825562 L3.00253296,26.6303711 Z" id="Border"></path>
+			<div class="col-sm-6 col-md-4">
+				<a href="#">
+					<div class="video-gallery-item">
+						<figure class="video-gallery-img"><img src="./assets/img/gallery4.png" alt=""></figure>
+						<div class="video-gallery-content">
+							<svg width="103px" height="102px" viewBox="0 0 103 102">
+								<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+									<g id="01-00-Index" transform="translate(-199.000000, -4107.000000)">
+										<g id="Students" transform="translate(0.000000, 3902.000000)">
+											<g id="Group-12">
+												<g id="Group-11" transform="translate(130.000000, 206.000000)">
+													<g id="Button/Round/50px" transform="translate(70.500000, 0.000000)">
+														<circle id="Background" stroke="#FFFFFF" stroke-width="2" cx="50" cy="50" r="50"></circle>
+														<g id="Icon/Plus" transform="translate(40.000000, 34.000000)" fill="#F5F9FC">
+															<polygon id="Background-1" points="2.00893847 28.620119 23.0557866 15.7421189 2.00893847 4.02857896"></polygon>
+															<path d="M0,0 L26,16 L0,32 L0,0 Z M3.00253296,26.6303711 L20.2835693,16 L3.00253296,5.36825562 L3.00253296,26.6303711 Z" id="Border"></path>
+														</g>
+													</g>
+												</g>
 											</g>
 										</g>
 									</g>
 								</g>
-							</g>
-						</g>
-					</g>
-				</svg>
+							</svg>
+						</div>
+					</div>
+				</a>
 			</div>
-		</div>
-	</a>
-	<a href="#">
-		<div class="video-gallery-item">
-			<figure class="video-gallery-img"><img src="./assets/img/gallery5.png" alt=""></figure>
-			<div class="video-gallery-content">
-				<svg width="103px" height="102px" viewBox="0 0 103 102">
-					<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-						<g id="01-00-Index" transform="translate(-199.000000, -4107.000000)">
-							<g id="Students" transform="translate(0.000000, 3902.000000)">
-								<g id="Group-12">
-									<g id="Group-11" transform="translate(130.000000, 206.000000)">
-										<g id="Button/Round/50px" transform="translate(70.500000, 0.000000)">
-											<circle id="Background" stroke="#FFFFFF" stroke-width="2" cx="50" cy="50" r="50"></circle>
-											<g id="Icon/Plus" transform="translate(40.000000, 34.000000)" fill="#F5F9FC">
-												<polygon id="Background-1" points="2.00893847 28.620119 23.0557866 15.7421189 2.00893847 4.02857896"></polygon>
-												<path d="M0,0 L26,16 L0,32 L0,0 Z M3.00253296,26.6303711 L20.2835693,16 L3.00253296,5.36825562 L3.00253296,26.6303711 Z" id="Border"></path>
+			<div class="col-sm-6 col-md-4">
+				<a href="#">
+					<div class="video-gallery-item">
+						<figure class="video-gallery-img"><img src="./assets/img/gallery5.png" alt=""></figure>
+						<div class="video-gallery-content">
+							<svg width="103px" height="102px" viewBox="0 0 103 102">
+								<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+									<g id="01-00-Index" transform="translate(-199.000000, -4107.000000)">
+										<g id="Students" transform="translate(0.000000, 3902.000000)">
+											<g id="Group-12">
+												<g id="Group-11" transform="translate(130.000000, 206.000000)">
+													<g id="Button/Round/50px" transform="translate(70.500000, 0.000000)">
+														<circle id="Background" stroke="#FFFFFF" stroke-width="2" cx="50" cy="50" r="50"></circle>
+														<g id="Icon/Plus" transform="translate(40.000000, 34.000000)" fill="#F5F9FC">
+															<polygon id="Background-1" points="2.00893847 28.620119 23.0557866 15.7421189 2.00893847 4.02857896"></polygon>
+															<path d="M0,0 L26,16 L0,32 L0,0 Z M3.00253296,26.6303711 L20.2835693,16 L3.00253296,5.36825562 L3.00253296,26.6303711 Z" id="Border"></path>
+														</g>
+													</g>
+												</g>
 											</g>
 										</g>
 									</g>
 								</g>
-							</g>
-						</g>
-					</g>
-				</svg>
+							</svg>
+						</div>
+					</div>
+				</a>
 			</div>
-		</div>
-	</a>
-	<a href="#">
-		<div class="video-gallery-item">
-			<figure class="video-gallery-img"><img src="./assets/img/gallery6.png" alt=""></figure>
-			<div class="video-gallery-content">
-				<svg width="103px" height="102px" viewBox="0 0 103 102">
-					<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-						<g id="01-00-Index" transform="translate(-199.000000, -4107.000000)">
-							<g id="Students" transform="translate(0.000000, 3902.000000)">
-								<g id="Group-12">
-									<g id="Group-11" transform="translate(130.000000, 206.000000)">
-										<g id="Button/Round/50px" transform="translate(70.500000, 0.000000)">
-											<circle id="Background" stroke="#FFFFFF" stroke-width="2" cx="50" cy="50" r="50"></circle>
-											<g id="Icon/Plus" transform="translate(40.000000, 34.000000)" fill="#F5F9FC">
-												<polygon id="Background-1" points="2.00893847 28.620119 23.0557866 15.7421189 2.00893847 4.02857896"></polygon>
-												<path d="M0,0 L26,16 L0,32 L0,0 Z M3.00253296,26.6303711 L20.2835693,16 L3.00253296,5.36825562 L3.00253296,26.6303711 Z" id="Border"></path>
+			<div class="col-sm-12 col-md-4">
+				<a href="#">
+					<div class="video-gallery-item">
+						<figure class="video-gallery-img"><img src="./assets/img/gallery6.png" alt=""></figure>
+						<div class="video-gallery-content">
+							<svg width="103px" height="102px" viewBox="0 0 103 102">
+								<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+									<g id="01-00-Index" transform="translate(-199.000000, -4107.000000)">
+										<g id="Students" transform="translate(0.000000, 3902.000000)">
+											<g id="Group-12">
+												<g id="Group-11" transform="translate(130.000000, 206.000000)">
+													<g id="Button/Round/50px" transform="translate(70.500000, 0.000000)">
+														<circle id="Background" stroke="#FFFFFF" stroke-width="2" cx="50" cy="50" r="50"></circle>
+														<g id="Icon/Plus" transform="translate(40.000000, 34.000000)" fill="#F5F9FC">
+															<polygon id="Background-1" points="2.00893847 28.620119 23.0557866 15.7421189 2.00893847 4.02857896"></polygon>
+															<path d="M0,0 L26,16 L0,32 L0,0 Z M3.00253296,26.6303711 L20.2835693,16 L3.00253296,5.36825562 L3.00253296,26.6303711 Z" id="Border"></path>
+														</g>
+													</g>
+												</g>
 											</g>
 										</g>
 									</g>
 								</g>
-							</g>
-						</g>
-					</g>
-				</svg>
+							</svg>
+						</div>
+					</div>
+				</a>
 			</div>
 		</div>
-	</a>
+	</div>
 </section>
 <!-- ========== OVERLAY TITLE ================= -->
 <section class="overlay-title">

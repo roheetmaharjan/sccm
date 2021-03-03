@@ -1,8 +1,8 @@
-<section class="section-padding box-with-bg-text-wrp">
+<section class="section-padding light-grey box-with-bg-text-wrp">
     <div class="container">
         <div class="clearfix">
             <h1 class="section-title float-left">Latest News</h1>
-            <a href="#" class="btn btn-outline-danger float-right">Go to new room</a>
+            <a href="news.php" class="btn btn-outline-danger float-right">Go to new room</a>
         </div>
         <div class="row no-gutters">
             <div class="col-sm-6 col-md-4">
