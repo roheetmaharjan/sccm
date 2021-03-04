@@ -71,7 +71,7 @@
 			<div class="header-top clearfix">
 				<div class="container">
 					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-3">
+						<div class="col-xs-12 col-sm-3 col-md-3">
 							<ul class="social float-left">
 								<li><a href="#"><i class="fab fa-facebook"></i></a></li>
 								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -80,7 +80,7 @@
 								<li><a href="#"><i class="fab fa-youtube"></i></a></li>
 							</ul>
 						</div>
-						<div class="col-xs-12 col-sm-12 col-md-9">
+						<div class="col-xs-12 col-sm-9 col-md-9">
 							<ul class="float-right">
 								<li><a href="./covid.php">Covid 19</a></li>
 								<li><a href="./agent.php">Agents</a></li>
@@ -189,7 +189,7 @@
 													<div class="grid-row">
 														<!--grid column 3-->
 														<div class="grid-col-4">
-															<h4>Student Portal login</h4>
+															<h4><a href="#">Student Portal login</a></h4>
 															<ul>
 																<li><a href="#"> Application </a></li>
 																<li><a href="#"> EOS framework and visa information </a></li>
@@ -198,7 +198,7 @@
 														</div>
 														<!--grid column 3-->
 														<div class="grid-col-4">
-															<h4>Resources</h4>
+															<h4><a href="#">Resources</a></h4>
 															<ul>
 																<li><a href="#"> Policies </a></li>
 																<li><a href="#"> Handbook </a></li>
@@ -208,7 +208,7 @@
 														</div>
 														<!--grid column 3-->
 														<div class="grid-col-4">
-															<h4>Online learning</h4>
+															<h4><a href="#">Online learning</a></h4>
 															<ul>
 																<li><a href="#"> SCCM E-learning </a></li>
 																<li><a href="#"> Online Class</a></li>
@@ -236,16 +236,16 @@
 													<div class="grid-row">
 														<!--grid column 3-->
 														<div class="grid-col-4">
-															<h4>Accounting</h4>
+															<h4><a href="./course-accounting.php">Accounting</a></h4>
 															<ul>
-																<li><a href="#"> FNS40217 Certificate IV of Accounting and Book-keeping </a></li>
+																<li><a href="course-detail.php"> FNS40217 Certificate IV of Accounting and Book-keeping </a></li>
 																<li><a href="#"> FNS50217 Diploma of Accounting </a></li>
 																<li><a href="#"> FNS60217 Advance Diploma of Accounting </a></li>
 															</ul>
 														</div>
 														<!--grid column 3-->
 														<div class="grid-col-4">
-															<h4>Business & Management</h4>
+															<h4><a href="#">Business & Management</a></h4>
 															<ul>
 																<li><a href="#"> Certificate IV in Leadership and Management </a></li>
 																<li><a href="#"> BSB51918 Diploma of Leadership and Management </a></li>
@@ -256,7 +256,7 @@
 														</div>
 														<!--grid column 3-->
 														<div class="grid-col-4">
-															<h4>Information Technology</h4>
+															<h4><a href="#">Information Technology</a></h4>
 															<ul>
 																<li><a href="#"> ICT40120 Certificate IV in Information Technology (Networking) </a></li>
 																<li><a href="#"> ICT50220 Diploma Of Information Technology </a></li>
@@ -265,7 +265,7 @@
 														</div>
 														<!--grid column 3-->
 														<div class="grid-col-4">
-															<h4>Project Management</h4>
+															<h4><a href="#">Project Management</a></h4>
 															<ul>
 																<li><a href="#"> BSB50820 Diploma of Project Management </a></li>
 																<li><a href="#">BSB60720 Advanced Diploma of Program Management </a></li>
@@ -273,7 +273,7 @@
 														</div>
 														<!--grid column 3-->
 														<div class="grid-col-4">
-															<h4>Hospitality</h4>
+															<h4><a href="#">Hospitality</a></h4>
 															<ul>
 																<li><a href="#"> SIT40516 Certificate IV in Commercial Cookery </a></li>
 																<li><a href="#"> SIT40716 Certificate IV in Patisserie</a></li>
@@ -283,7 +283,7 @@
 														</div>
 														<!--grid column 3-->
 														<div class="grid-col-4">
-															<h4>Event Management</h4>
+															<h4><a href="#">Event Management</a></h4>
 															<ul>
 																<li><a href="#"> SIT50316 Diploma of Event Management </a></li>
 																<li><a href="#"> SIT60216 Advanced Diploma of Event Management </a></li>
@@ -294,7 +294,7 @@
 											</div>
 											<div class="mega-menu-footer">
 												<div class="container">
-													<h3><a href="#">Courses <i class="fas fa-chevron-right"></i></a></h3>
+													<h3><a href="courses.php">Courses <i class="fas fa-chevron-right"></i></a></h3>
 												</div>
 											</div>
 										</div>
@@ -310,28 +310,28 @@
 													<div class="grid-row">
 														<!--grid column 3-->
 														<div class="grid-col-4">
-															<h4><a href="#">Orientation</a></h4>
+															<h4><a href="./orientation.php">Orientation</a></h4>
 														</div>
 														<!--grid column 3-->
 														<div class="grid-col-4">
-															<h4><a href="#">Intake dates</a></h4>
+															<h4><a href="./intakes-dates.php">Intake dates</a></h4>
 														</div>
 														<!--grid column 3-->
 														<div class="grid-col-4">
-															<h4><a href="#">How to apply</a></h4>
+															<h4><a href="./how-to-apply.php">How to apply</a></h4>
 														</div>
 														<div class="grid-col-4">
 															<h4><a href="#">Apply now</a></h4>
 														</div>
 														<div class="grid-col-4">
-															<h4><a href="#">Pathways</a></h4>
+															<h4><a href="./pathway-partners.php">Pathways</a></h4>
 														</div>
 													</div>
 												</div>
 											</div>
 											<div class="mega-menu-footer">
 												<div class="container">
-													<h3><a href="#">Admissions <i class="fas fa-chevron-right"></i></a></h3>
+													<h3><a href="admissions.php">Admissions <i class="fas fa-chevron-right"></i></a></h3>
 												</div>
 											</div>
 										</div>

@@ -1,14 +1,6 @@
 <?php $page = 'page';
 include('include/header.php'); ?>
 <div class="inner-page">
-    <nav class="breadcrumb-nav">
-        <div class="container">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="./index.php"><i class="fas fa-home"></i></a></li>
-                <li class="breadcrumb-item active" aria-current="page">Pathway partners</li>
-            </ol>
-        </div>
-    </nav>
     <section class="title-overlap-post-wrp">
         <div class="title-overlap-green-bg"></div>
         <div class="container">

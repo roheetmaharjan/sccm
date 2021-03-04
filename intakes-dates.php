@@ -14,7 +14,7 @@ include('include/header.php'); ?>
                     <div id="accounts" class="mb-5">
                         <div class="accordion">
                             <div class="accordion-item">
-                                <a class="active">Term 1</a>
+                                <a class="head active">Term 1</a>
                                 <div class="content active">
                                     <div class="table-responsive">
                                         <table class="table table-bordered">
@@ -42,7 +42,7 @@ include('include/header.php'); ?>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a class="active">Term 2</a>
+                                <a class="head active">Term 2</a>
                                 <div class="content active">
                                     <div class="table-responsive">
                                         <table class="table table-bordered">
@@ -70,7 +70,7 @@ include('include/header.php'); ?>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a class="active">Term 3</a>
+                                <a class="head active">Term 3</a>
                                 <div class="content active">
                                     <div class="table-responsive">
                                         <table class="table table-bordered">
@@ -98,7 +98,7 @@ include('include/header.php'); ?>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a class="active">Term 4</a>
+                                <a class="head active">Term 4</a>
                                 <div class="content active">
                                     <div class="table-responsive">
                                         <table class="table table-bordered">
@@ -126,7 +126,7 @@ include('include/header.php'); ?>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <a class="active">Public Holiday</a>
+                                <a class="head active">Public Holiday</a>
                                 <div class="content active">
                                     <p><b>1 January 2021 – New Year’s Day</b></p>
                                     <p><b>26 January 2021 – Australia Day Holiday</b></p>

@@ -924,6 +924,9 @@
   color: #333333;
   font-weight: 500;
 }
+.mega-menu .drop-down .mega-menu-body ul li a :hover{
+  text-decoration: underline;
+}
 
 .mega-menu .mobileTriggerButton {
   /*---------------------------------------------------- MOBILE CLICK TRIGGER JQUERY DIV */

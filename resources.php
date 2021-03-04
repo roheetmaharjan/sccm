@@ -18,7 +18,7 @@ include('include/header.php'); ?>
     <section class="section-padding light-grey pt-0">
         <div class="container">
             <div class="row">
-                <div class="col-3">
+                <div class="col-sm-12 col-md-4">
                     <div class="nav flex-column nav-pills vertical-nav" role="tablist" aria-orientation="vertical">
                         <a class="nav-link smoothScroll" href="#policies">Policies</a>
                         <a class="nav-link smoothScroll" href="#handbook">Handbook</a>
@@ -26,7 +26,7 @@ include('include/header.php'); ?>
                         <a class="nav-link smoothScroll" href="#student-form">Student Forms</a>
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-sm-12 col-md-8">
                     <div id="policies" class="mb-5">
                         <div class="accordion">
                             <div class="accordion-item">
