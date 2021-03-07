@@ -55,4 +55,28 @@ $(document).ready(function() {
     }
     
     items.forEach(item => item.addEventListener('click', toggleAccordion));
+
+
+
+    const inputs = document.querySelectorAll(".form-control");
+
+
+function addcl(){
+	let parent = this.parentNode.parentNode;
+	parent.classList.add("focus");
+}
+
+function remcl(){
+	let parent = this.parentNode.parentNode;
+	if(this.value == ""){
+		parent.classList.remove("focus");
+	}
+}
+
+
+inputs.forEach(input => {
+	input.addEventListener("focus", addcl);
+	input.addEventListener("blur", remcl);
+});
+
 });

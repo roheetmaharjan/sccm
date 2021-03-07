@@ -790,8 +790,8 @@ p {
 }
 
 #header .header-nav {
-	border-bottom: none;
-	padding: 2rem 0;
+    border-bottom: none;
+    padding: 1rem 0;
 }
 
 #header .mega-menu {
@@ -895,16 +895,20 @@ p {
 /* Hero Banner drop arrow */
 
 .hero-scroll-drop {
-	height: 2rem;
-	display: inline-block;
-	text-align: center;
-	z-index: 11;
-	position: absolute;
-	left: 50%;
-	bottom: 87px;
-	text-decoration: none;
-	color: #fff;
-	transform: translateX(-50%);
+    height: 2rem;
+    display: block;
+    text-align: center;
+    z-index: 11;
+    margin-top: -21px;
+    position: relative;
+    z-index: 1;
+    left: 50%;
+    bottom: 87px;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .hero-scroll-drop:hover {
@@ -1642,4 +1646,62 @@ p {
 	margin-bottom: 1rem;
 	color: #333333;
 	margin-bottom: 1rem;
+}
+
+/* How to step */
+
+.how-to-steps {
+	display: grid;
+	max-width: 950px;
+	margin: 0 auto;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10rem;
+	text-align: center;
+	justify-items: center;
+}
+
+.how-to-steps-wrp .step-selector {
+	margin-bottom: 4rem;
+}
+
+.how-to-steps-wrp .step-selector label {
+	font-weight: 900;
+	font-size: 2rem;
+	margin-right: 2rem;
+}
+
+.how-to-steps-wrp .step-selector select {
+	font-size: 2rem;
+	font-weight: 800;
+}
+
+.how-to-step {
+	background-color: #fff;
+	padding: 5rem 3rem;
+	text-align: center;
+	min-height: 64rem;
+}
+
+.how-to-step .step-number {
+	font-size: 2.5rem;
+	color: #21A690;
+	margin-bottom: 2rem;
+	font-weight: 600;
+}
+
+.how-to-step .how-to-step-img {
+	max-width: 16rem;
+	min-height: 16rem;
+	margin: 0 auto 3rem auto;
+}
+
+.how-to-step .how-to-step-title {
+	font-weight: 900;
+	font-size: 2.5rem;
+	margin-bottom: 2.5rem;
+}
+
+.how-to-step .how-to-step-description {
+	font-size: 1.5rem;
+	color: #333;
 }
