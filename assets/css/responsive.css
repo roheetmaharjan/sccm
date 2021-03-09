@@ -5,12 +5,21 @@
 }
 
 @media(max-width: 1024px) {
+    html {
+        font-size: 50.5%
+    }
     .hero-banner .owl-nav {
         right: 0;
     }
 }
 
 @media(max-width:768px) {
+    html {
+        font-size: 45.5%
+    }
+    .hero-banner .hero-banner-content {
+        padding-right: 5rem;
+    }
     #header .header-top ul {
         text-align: center;
         float: none !important;
@@ -24,5 +33,11 @@
     .cta .cta-title {
         max-width: 100%;
         text-align: center;
+    }
+}
+
+@media(max-width: 640px) {
+    .radial-green-section .btn {
+        margin-bottom: 2rem;
     }
 }

@@ -242,12 +242,12 @@ p {
 }
 
 .box-with-bg-img .box-with-bg-img-title {
-	position: absolute;
-	z-index: 10;
-	bottom: 0;
-	width: 100%;
-	left: 0;
-	padding: 0 2rem 2rem 2rem;
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding: 0 2rem calc(2rem + 3rem) 2rem;
 }
 
 .box-with-bg-img .box-with-bg-img-title h4 {
@@ -270,7 +270,7 @@ p {
 /* Box with background image with grid layout */
 
 .grid-layout .box-with-bg-img {
-	margin-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 
 .grid-layout .portrait-box {
@@ -549,6 +549,12 @@ p {
 	}
 }
 
+@media (max-width: 640px) {
+	.video-gallery .video-gallery-item:not(.portrait-box) {
+		max-height: 35rem;
+	}
+}
+
 /*-------Banner-------*/
 
 .hero-banner {
@@ -790,8 +796,8 @@ p {
 }
 
 #header .header-nav {
-    border-bottom: none;
-    padding: 1rem 0;
+	border-bottom: none;
+	padding: 1rem 0;
 }
 
 #header .mega-menu {
@@ -895,20 +901,20 @@ p {
 /* Hero Banner drop arrow */
 
 .hero-scroll-drop {
-    height: 2rem;
-    display: block;
-    text-align: center;
-    z-index: 11;
-    margin-top: -21px;
-    position: relative;
-    z-index: 1;
-    left: 50%;
-    bottom: 87px;
-    text-decoration: none;
-    color: #fff;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    transform: translateX(-50%);
+	height: 2rem;
+	display: block;
+	text-align: center;
+	z-index: 11;
+	margin-top: -21px;
+	position: relative;
+	z-index: 1;
+	left: 50%;
+	bottom: 87px;
+	text-decoration: none;
+	color: #fff;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
 }
 
 .hero-scroll-drop:hover {
@@ -1207,6 +1213,15 @@ p {
 .footer-bottom .footer-logo {
 	max-width: 150px;
 	width: 100%;
+}
+
+@media(max-width: 640px) {
+	.footer .col-sm-6 {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
 }
 
 /* Title Overlap Post */
