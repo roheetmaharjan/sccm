@@ -27,6 +27,9 @@
     width: 5rem;
     display: inline-block;
 }
+.with-custom-icon .form-control:focus + button{
+	color: #1b82ae;
+}
 /* Form Control */
 
 .form-control {

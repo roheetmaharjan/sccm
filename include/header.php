@@ -23,8 +23,12 @@
 	<!-- Font Awesome CSS -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet" type="text/css" />
 
+	<!-- Fancy Box CSS -->
+	<link rel="stylesheet" href="assets/plugins/magnific-popup/magnific-popup.css" />
+
 	<!-- Default CSS -->
 	<link rel="stylesheet" href="assets/css/normalize.css">
+
 	<!-- Custom Css -->
 	<link rel="stylesheet" href="assets/css/table.css">
 	<link rel="stylesheet" href="assets/css/form.css">
@@ -37,8 +41,11 @@
 	<!-- Plugins -->
 
 	<!-- jQuery -->
-	<script src="http://iprototype.thecommunitycloud.com/community/assets/plugins/jquery.js"></script>
+	<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="http://iprototype.thecommunitycloud.com/community/assets/plugins/jquery-ui-1.10.3.min.js"></script>
+
+	<!-- Magnific Pop Up -->
+	<script src="assets/plugins/magnific-popup/jquery.magnific-popup.js"></script>
 
 	<!-- Bootstrap Js -->
 	<!-- <script src="assets/plugins/bootstrap/popper.min.js"></script> -->

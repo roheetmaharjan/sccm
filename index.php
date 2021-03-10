@@ -1,52 +1,7 @@
 <?php include('include/header.php'); ?>
 <!-- ========================= BANNER ========================= -->
-<div class="hero-banner owl-carousel">
-	<div class="hero-banner-slide" style="background-image: url(./assets/img/banner1.png);">
-		<div class="container">
-			<div class="hero-banner-content">
-				<h1>COVID-19 (Coronavirus)</h1>
-				<p>Find the latest updates on the COVID-19 situation for applicants, students and staff</p>
-				<a href="#" class="btn btn-outline-light btn-lg">Know More</a>
-			</div>
-		</div>
-	</div>
-	<div class="hero-banner-slide" style="background-image: url(./assets/img/banner1.png);">
-		<div class="container">
-			<div class="hero-banner-content">
-				<h1>COVID-19 (Coronavirus)</h1>
-				<p>Find the latest updates on the COVID-19 situation for applicants, students and staff</p>
-				<a href="#" class="btn btn-outline-light btn-lg">Know More</a>
-			</div>
-		</div>
-	</div>
-	<div class="hero-banner-slide" style="background-image: url(./assets/img/banner1.png);">
-		<div class="container">
-			<div class="hero-banner-content">
-				<h1>COVID-19 (Coronavirus)</h1>
-				<p>Find the latest updates on the COVID-19 situation for applicants, students and staff</p>
-				<a href="#" class="btn btn-outline-light btn-lg">Know More</a>
-			</div>
-		</div>
-	</div>
-	<div class="hero-banner-slide" style="background-image: url(./assets/img/banner1.png);">
-		<div class="container">
-			<div class="hero-banner-content">
-				<h1>COVID-19 (Coronavirus)</h1>
-				<p>Find the latest updates on the COVID-19 situation for applicants, students and staff</p>
-				<a href="#" class="btn btn-outline-light btn-lg">Know More</a>
-			</div>
-		</div>
-	</div>
-	<div class="hero-banner-slide" style="background-image: url(./assets/img/banner1.png);">
-		<div class="container">
-			<div class="hero-banner-content">
-				<h1>COVID-19 (Coronavirus)</h1>
-				<p>Find the latest updates on the COVID-19 situation for applicants, students and staff</p>
-				<a href="#" class="btn btn-outline-light btn-lg">Know More</a>
-			</div>
-		</div>
-	</div>
-</div>
+<?php include('components/text-slider.php'); ?>
+
 <a class="smoothScroll hero-scroll-drop" href="#box-with-bg-img">
 	<span class="arrow down"></span>
 	<span class="hero-scroll-drop-text">Scroll</span>
@@ -206,7 +161,7 @@
 <!-- ========== SECTION VIDEO GALLERY ================= -->
 <section class="row video-gallery no-gutters">
 	<div class="col-sm-12 col-md-4">
-		<a href="#">
+		<a class="vimeo-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
 			<div class="video-gallery-item portrait-box">
 				<figure class="video-gallery-img"><img src="./assets/img/gallery1.png" alt=""></figure>
 				<div class="video-gallery-content">
@@ -238,7 +193,7 @@
 	<div class="col-sm-12 col-md-8">
 		<div class="row no-gutters">
 			<div class="col-sm-6 col-md-6">
-				<a href="#">
+				<a class="vimeo-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
 					<div class="video-gallery-item">
 						<figure class="video-gallery-img"><img src="./assets/img/gallery2.png" alt=""></figure>
 						<div class="video-gallery-content">
@@ -266,7 +221,7 @@
 				</a>
 			</div>
 			<div class="col-sm-6 col-md-6">
-				<a href="#">
+				<a class="vimeo-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
 					<div class="video-gallery-item">
 						<figure class="video-gallery-img"><img src="./assets/img/gallery3.png" alt=""></figure>
 						<div class="video-gallery-content">
@@ -294,7 +249,7 @@
 				</a>
 			</div>
 			<div class="col-sm-6 col-md-4">
-				<a href="#">
+				<a class="vimeo-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
 					<div class="video-gallery-item">
 						<figure class="video-gallery-img"><img src="./assets/img/gallery4.png" alt=""></figure>
 						<div class="video-gallery-content">
@@ -322,7 +277,7 @@
 				</a>
 			</div>
 			<div class="col-sm-6 col-md-4">
-				<a href="#">
+				<a class="vimeo-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
 					<div class="video-gallery-item">
 						<figure class="video-gallery-img"><img src="./assets/img/gallery5.png" alt=""></figure>
 						<div class="video-gallery-content">
@@ -350,7 +305,7 @@
 				</a>
 			</div>
 			<div class="col-sm-12 col-md-4">
-				<a href="#">
+				<a class="vimeo-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
 					<div class="video-gallery-item">
 						<figure class="video-gallery-img"><img src="./assets/img/gallery6.png" alt=""></figure>
 						<div class="video-gallery-content">
@@ -380,6 +335,7 @@
 		</div>
 	</div>
 </section>
+
 <!-- ========== OVERLAY TITLE ================= -->
 <section class="overlay-title">
 	<div class="container">

@@ -242,12 +242,12 @@ p {
 }
 
 .box-with-bg-img .box-with-bg-img-title {
-    position: absolute;
-    z-index: 10;
-    bottom: 0;
-    width: 100%;
-    left: 0;
-    padding: 0 2rem calc(2rem + 3rem) 2rem;
+	position: absolute;
+	z-index: 10;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	padding: 0 2rem calc(2rem + 3rem) 2rem;
 }
 
 .box-with-bg-img .box-with-bg-img-title h4 {
@@ -270,7 +270,7 @@ p {
 /* Box with background image with grid layout */
 
 .grid-layout .box-with-bg-img {
-    padding-bottom: 3rem;
+	padding-bottom: 3rem;
 }
 
 .grid-layout .portrait-box {
@@ -678,6 +678,147 @@ p {
 	right: 0.5rem;
 }
 
+/* For Text Carousel */
+.hero-video-banner {
+    position: relative;
+}
+.hero-video-banner .text-carousel-content {
+	bottom: 0;
+	padding-bottom: 17rem;
+	max-width: 70rem;
+	width: 100%;
+}
+
+.hero-video-banner .text-carousel-content h1 {
+	font-weight: 900;
+	color: #fff;
+	max-width: 59rem;
+	font-size: 6rem;
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+.hero-video-banner .text-carousel-content p {
+	font-weight: 600;
+	color: #fff;
+	font-size: 3rem;
+	line-height: 1.3;
+	margin-bottom: 3rem;
+}
+
+.hero-video-banner .video-background {
+	right: 0;
+	bottom: 0;
+	width: auto;
+	height: auto;
+	z-index: -100;
+}
+
+.hero-video-banner .overlay {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-image: radial-gradient(ellipse at left top, rgb(52, 82, 255, 0.48) 0%, rgb(234, 33, 39, 0.66) 100%);
+}
+
+.hero-video-banner .text-container {
+	max-width: 1160px;
+	margin: 0 auto;
+	width: 100%;
+	padding: 0 15px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+@media (min-width: 1440px) {
+	.hero-video-banner .text-carousel .owl-nav {
+		right: 0;
+		padding: 0;
+	}
+}
+@media(min-width: 1440px) {
+	.hero-video-banner .video-background  {
+		height: 100vh;
+		width: 100%;
+		object-fit: cover;
+	}
+}
+
+@media(max-width: 1440px) {
+	.hero-video-banner .video-background  {
+		height: 94rem;
+		width: 100%;
+		object-fit: cover;
+	}
+	.hero-video-banner .overlay{
+		height: 94rem;
+	}
+}
+.hero-video-banner .owl-nav {
+	position: absolute;
+	right: 0;
+	margin-top: 0;
+	bottom: 17rem;
+	width: auto;
+	margin: 0 auto;
+	text-align: right;
+}
+
+@media(min-width:1440px) {
+	.hero-video-banner .owl-nav {
+		right: 19.5%;
+	}
+}
+
+.hero-video-banner .owl-nav button.owl-next, .hero-video-banner .owl-nav button.owl-prev {
+	font-size: 0;
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius: 0;
+	margin-left: 1rem;
+	width: 6rem;
+	height: 6rem;
+	line-height: 6rem;
+	padding: 0;
+	text-align: center;
+	position: relative;
+}
+
+.hero-video-banner .owl-nav button.owl-next span, .hero-video-banner .owl-nav button.owl-prev span {
+	display: none;
+}
+
+.hero-video-banner .owl-nav button.owl-next, .hero-video-banner .owl-nav button.owl-prev {
+	outline: none;
+}
+
+.hero-video-banner .owl-nav button.owl-next:after, .hero-video-banner .owl-nav button.owl-prev:after {
+	content: '';
+	display: inline-block;
+	margin-top: 0;
+	width: 2.5rem;
+	height: 2.5rem;
+	position: relative;
+	top: 1.1rem;
+	border-left: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+
+.hero-video-banner .owl-nav button.owl-prev:after {
+	transform: rotate(45deg);
+	left: 0.5rem;
+}
+
+.hero-video-banner .owl-nav button.owl-next:after {
+	transform: rotate(220deg);
+	right: 0.5rem;
+}
+
 /* Inner Page Banner */
 
 .inner-page-banner {
@@ -901,20 +1042,20 @@ p {
 /* Hero Banner drop arrow */
 
 .hero-scroll-drop {
-	height: 2rem;
-	display: block;
-	text-align: center;
-	z-index: 11;
-	margin-top: -21px;
-	position: relative;
-	z-index: 1;
-	left: 50%;
-	bottom: 87px;
-	text-decoration: none;
-	color: #fff;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	transform: translateX(-50%);
+    height: 2rem;
+    display: block;
+    text-align: center;
+    z-index: 11;
+    margin-top: -2.8rem;
+    position: relative;
+    z-index: 1;
+    left: 50%;
+    bottom: 8.7rem;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .hero-scroll-drop:hover {
