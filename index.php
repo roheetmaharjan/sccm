@@ -19,7 +19,7 @@
 				</figure>
 				<div class="box-with-bg-img-title">
 					<h4>Parramatta Campuse</h4>
-					<a href="#">Study Here</a>
+					<a href="./parramatta-campus.php">Study Here</a>
 				</div>
 			</div>
 		</div>
@@ -30,7 +30,7 @@
 				</figure>
 				<div class="box-with-bg-img-title">
 					<h4>Sydney Campuse</h4>
-					<a href="#">Study Here</a>
+					<a href="./parramatta-campus.php">Study Here</a>
 				</div>
 			</div>
 		</div>
@@ -41,7 +41,7 @@
 				</figure>
 				<div class="box-with-bg-img-title">
 					<h4>Darwin Campuse</h4>
-					<a href="#">Study Here</a>
+					<a href="./parramatta-campus.php">Study Here</a>
 				</div>
 			</div>
 		</div>

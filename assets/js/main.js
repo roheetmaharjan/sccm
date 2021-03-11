@@ -34,6 +34,23 @@ $(document).ready(function() {
             }
         }
     })
+    //For Image Slider in banner
+    $('.gallery-slider.owl-carousel').owlCarousel({
+        loop: true,
+        nav: true,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    })
 
     /* Mega menu*/
     $('#header nav').megaMenu({
@@ -94,7 +111,7 @@ $(document).ready(function() {
     });
 
     //Gallery
-    $('.video-gallery').magnificPopup({
+    $('.video-gallery,.single-column-gallery').magnificPopup({
         delegate: 'a', 
         type: 'iframe',
         gallery:{
