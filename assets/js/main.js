@@ -112,4 +112,12 @@ $(document).ready(function() {
         midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
     });
 
+    //Parallax
+    $('.parallax-window').parallax();
+
+
 });
+//Moving Text on scroll
+$(document).on('scroll',function(){
+    $('.overlay-text').css("left",Math.max(1350 - 0.35*window.scrollY) + "px");
+})

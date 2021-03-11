@@ -2,7 +2,7 @@
 include('include/header.php'); ?>
 <div class="inner-page">
     <!-- ========== SECTION CAMPUS ================= -->
-    <section class="intro-banner" style="background-image: url(./assets/img/campus1.png);">
+    <section class="intro-banner parallax-window" data-parallax="scroll" data-image-src="./assets/img/campus1.png">
         <div class="container">
             <div class="intro-banner-content">
                 <h1>Parramatta Campus</h1>
@@ -11,7 +11,7 @@ include('include/header.php'); ?>
             </div>
         </div>
     </section>
-    <section class="intro-banner" style="background-image: url(./assets/img/campus2.png);">
+    <section class="intro-banner parallax-window" data-parallax="scroll" data-image-src="./assets/img/campus2.png">
         <div class="container">
             <div class="intro-banner-content">
                 <h1>Sydney Campus</h1>
@@ -20,7 +20,7 @@ include('include/header.php'); ?>
             </div>
         </div>
     </section>
-    <section class="intro-banner" style="background-image: url(./assets/img/campus3.png);">
+    <section class="intro-banner parallax-window" data-parallax="scroll" data-image-src="./assets/img/campus3.png">
         <div class="container">
             <div class="intro-banner-content">
                 <h1>Darwin Campus</h1>

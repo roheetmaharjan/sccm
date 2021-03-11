@@ -66,6 +66,9 @@
 	<!-- Smooth Scroll -->
 	<script src="assets/plugins/jquery.easings.min.js" type="text/javascript"></script>
 
+	<!-- Parrallax JS -->
+	<script src="assets\plugins\parallax.js\parallax.min.js" type="text/javascript"></script>
+
 	<!-- Custom Js-->
 	<script src="assets/js/main.js"></script>
 </head>
