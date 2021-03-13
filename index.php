@@ -124,40 +124,34 @@
 <?php include('components/latest-news.php'); ?>
 
 <!-- ========== SECTION CLIENT ================= -->
-<!-- <section class="section-padding box-with-bg-text-wrp">
+<section class="section-padding box-with-bg-text-wrp">
 	<div class="container">
-		<div class="clearfix">
-			<h1 class="section-title float-left">Latest News</h1>
-			<a href="#" class="btn btn-outline-danger float-right">Go to new room</a>
-		</div>
 		<div class="row">
-			<div class="col">
-				<div class="box-with-text">
-					<a href="#">
-						<h4 class="box-with-text-title">Lorem Ipsum is simply dummy text of the printing.</h4>
-						<div class="box-with-text-date">22 Dec 2020</div>
-					</a>
-				</div>
+			<div class="col-sm-12 col-md-3 m-auto">
+				<h4 class="client-section-title">We are with</h4>
 			</div>
-			<div class="col">
-				<div class="box-with-text">
-					<a href="#">
-						<h4 class="box-with-text-title">Lorem Ipsum is simply dummy text of the printing.</h4>
-						<div class="box-with-text-date">22 Dec 2020</div>
-					</a>
-				</div>
-			</div>
-			<div class="col">
-				<div class="box-with-text">
-					<a href="#">
-						<h4 class="box-with-text-title">Lorem Ipsum is simply dummy text of the printing.</h4>
-						<div class="box-with-text-date">22 Dec 2020</div>
-					</a>
+			<div class="col-sm-12 col-md-9">
+				<div class="client-carousel owl-carousel">
+					<div class="client-item">
+						<figure class="client-img"><img src="./assets/img/client/client1.svg" alt=""></figure>
+					</div>
+					<div class="client-item">
+						<figure class="client-img"><img src="./assets/img/client/client2.svg" alt=""></figure>
+					</div>
+					<div class="client-item">
+						<figure class="client-img"><img src="./assets/img/client/client3.svg" alt=""></figure>
+					</div>
+					<div class="client-item">
+						<figure class="client-img"><img src="./assets/img/client/client4.svg" alt=""></figure>
+					</div>
+					<div class="client-item">
+						<figure class="client-img"><img src="./assets/img/client/client5.svg" alt=""></figure>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</section> -->
+</section>
 <!-- ========== SECTION VIDEO GALLERY ================= -->
 <?php include('./components/video-gallery.php'); ?>
 

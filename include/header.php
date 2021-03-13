@@ -41,7 +41,7 @@
 	<!-- Plugins -->
 
 	<!-- jQuery -->
-	<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="http://iprototype.thecommunitycloud.com/community/assets/plugins/jquery-ui-1.10.3.min.js"></script>
 
 	<!-- Magnific Pop Up -->
@@ -56,18 +56,16 @@
 
 	<!-- Seelct Picker -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
-	
-	<!-- Fixed Header When Scroll -->
-	<script src="assets/plugins/scrolltofixed/jquery-scrolltofixed.js" type="text/javascript"></script>
-
-	<!-- Mega Menu -->
-	<script src="assets/plugins/menu/mega_menu.js" type="text/javascript"></script>
 
 	<!-- Smooth Scroll -->
 	<script src="assets/plugins/jquery.easings.min.js" type="text/javascript"></script>
 
 	<!-- Parrallax JS -->
-	<script src="assets\plugins\parallax.js\parallax.min.js" type="text/javascript"></script>
+	<!-- <script src="assets\plugins\parallax.js\parallax.min.js" type="text/javascript"></script> -->
+	<script src="assets\plugins\paroller.js\dist\jquery.paroller.js" type="text/javascript"></script>
+
+	<!-- Mega Menu -->
+	<script src="assets/plugins/menu/mega_menu.js" type="text/javascript"></script>
 
 	<!-- Custom Js-->
 	<script src="assets/js/main.js"></script>
@@ -109,9 +107,9 @@
 			</div>
 
 			<div class="header-nav nav-fixed-scroll clearfix">
-				<nav class="mega-menu menuFullWidth <?php if ($page == 'page') {
+				<nav id="navbar" class="mega-menu menuFullWidth <?php if ($page == 'page') {
 														echo 'remove-fixed';
-													} ?>" style="z-index: 999; position: relative; top: 0px;">
+													} ?>">
 					<!-- menu list items container -->
 					<div class="menu-list-items ">
 						<div class="container">

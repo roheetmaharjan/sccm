@@ -1,5 +1,6 @@
 <!-- ========== CALL TO ACTION ================= -->
-<section class="cta section-padding parallax-window" data-parallax="scroll" data-image-src="./assets/img/cta.png">
+<section class="cta section-padding parallax">
+    <span class="bg-image"></span>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-6">

@@ -34,6 +34,25 @@ $(document).ready(function() {
             }
         }
     })
+    // For client
+    $('.client-carousel.owl-carousel').owlCarousel({
+        loop: false,
+        nav: false,
+        dots: false,
+        margin: 20,
+        responsive: {
+            0: {
+                items: 3
+            },
+            600: {
+                items: 4
+            },
+            1000: {
+                items: 5
+            }
+        }
+    })
+
     //For Image Slider in banner
     $('.gallery-slider.owl-carousel').owlCarousel({
         loop: true,
@@ -54,17 +73,38 @@ $(document).ready(function() {
 
     /* Mega menu*/
     $('#header nav').megaMenu({
-        logo_align: 'left',
-        links_align: 'right',
-        searchBar_align: 'right',
         trigger: 'hover',
         effect: 'scale',
         mobile_settings: {
             collapse: true
         }
     });
+
     /* To stick navbar at top when scroll*/
-    $('#header nav').scrollToFixed();
+    // window.onscroll = function() {stickyHeader()};
+    // var navbar = document.getElementById("navbar");
+    // var sticky = navbar.offsetTop;
+
+    // function stickyHeader() {
+    //     if (window.pageYOffset >= sticky) {
+    //       navbar.classList.add("scroll-to-fixed-fixed")
+    //     } else {
+    //       navbar.classList.remove("scroll-to-fixed-fixed");
+    //     }
+    // }
+    $(function() {
+        var header = $("#navbar");
+      
+        $(window).scroll(function() {    
+            var scroll = $(window).scrollTop();
+            if (scroll >= 50) {
+                header.addClass("scroll-to-fixed-fixed");
+            } else {
+                header.removeClass("scroll-to-fixed-fixed");
+            }
+        });
+      
+    });
 
     /*smooth scrolling*/
     $('.smoothScroll').click(function() {
@@ -130,9 +170,7 @@ $(document).ready(function() {
     });
 
     //Parallax
-    $('.parallax-window').parallax();
-
-
+    $('.paroller').paroller();
 });
 //Moving Text on scroll
 $(document).on('scroll',function(){
