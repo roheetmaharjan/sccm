@@ -71,27 +71,7 @@ $(document).ready(function() {
         }
     })
 
-    /* Mega menu*/
-    // $('#header nav').megaMenu({
-    //     trigger: 'hover',
-    //     effect: 'scale',
-    //     mobile_settings: {
-    //         collapse: true
-    //     }
-    // });
-
-    /* To stick navbar at top when scroll*/
-    // window.onscroll = function() {stickyHeader()};
-    // var navbar = document.getElementById("navbar");
-    // var sticky = navbar.offsetTop;
-
-    // function stickyHeader() {
-    //     if (window.pageYOffset >= sticky) {
-    //       navbar.classList.add("scroll-to-fixed-fixed")
-    //     } else {
-    //       navbar.classList.remove("scroll-to-fixed-fixed");
-    //     }
-    // }
+    /* To stick navbar at top when scroll */
     $(function() {
         var header = $("#navbar");
       
@@ -105,6 +85,7 @@ $(document).ready(function() {
         });
       
     });
+
 
     /*smooth scrolling*/
     $('.smoothScroll').click(function() {
