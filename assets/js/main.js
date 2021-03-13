@@ -72,13 +72,13 @@ $(document).ready(function() {
     })
 
     /* Mega menu*/
-    $('#header nav').megaMenu({
-        trigger: 'hover',
-        effect: 'scale',
-        mobile_settings: {
-            collapse: true
-        }
-    });
+    // $('#header nav').megaMenu({
+    //     trigger: 'hover',
+    //     effect: 'scale',
+    //     mobile_settings: {
+    //         collapse: true
+    //     }
+    // });
 
     /* To stick navbar at top when scroll*/
     // window.onscroll = function() {stickyHeader()};
@@ -170,7 +170,16 @@ $(document).ready(function() {
     });
 
     //Parallax
-    $('.paroller').paroller();
+    // $('.paroller').paroller();
+
+    //Parallax
+    $('.parallax-window').parallax();
+
+    //Menu 
+    $(".menu-mobile-collapse-trigger").click(function(){
+        $( this ).toggleClass( "active" );
+        $(".menu-links").toggleClass("show");
+    });
 });
 //Moving Text on scroll
 $(document).on('scroll',function(){
