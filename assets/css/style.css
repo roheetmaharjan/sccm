@@ -1968,16 +1968,22 @@ p {
 
 .how-to-steps {
 	display: grid;
-	max-width: 950px;
+	max-width: 95rem;
 	margin: 0 auto;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 10rem;
 	text-align: center;
 	justify-items: center;
 }
-
+@media(max-width: 595px){
+	.how-to-steps {
+		grid-template-columns: 1fr;
+		grid-gap: none
+	}
+}
 .how-to-steps-wrp .step-selector {
-	margin-bottom: 4rem;
+    max-width: 95rem;
+    margin: 0 auto 4rem auto;
 }
 
 .how-to-steps-wrp .step-selector label {
@@ -2000,10 +2006,10 @@ p {
 }
 
 .how-to-step .step-number {
-	font-size: 2.5rem;
-	color: #21A690;
-	margin-bottom: 2rem;
-	font-weight: 600;
+    font-size: 2.5rem;
+    color: #21A690;
+    margin-bottom: 3rem;
+    font-weight: 600;
 }
 
 .how-to-step .how-to-step-img {
@@ -2023,7 +2029,7 @@ p {
 	color: #333;
 }
 
-.how-to-step:after {
+/* .how-to-step:after {
 	content: '';
 	display: block;
 	max-width: 10rem;
@@ -2035,19 +2041,28 @@ p {
 	width: 100%;
 }
 
-.how-to-step:nth-child(even):before {
-	content: '';
-	display: block;
-	max-width: 30rem;
-	background-color: green;
-	height: 2px;
-	position: absolute;
-	top: 50%;
-	left: 100%;
-	width: 100%;
-	transform: rotate(90deg);
+.how-to-step:nth-child(2n+2):before {
+    content: '';
+    display: block;
+    max-width: 2px;
+    background-color: green;
+    height: 75rem;
+    position: absolute;
+    top: 50%;
+    left: calc(100% - -10rem);
+    width: 100%;
 }
-
+.how-to-step:nth-child(3n+3):before {
+    content: '';
+    display: block;
+    max-width: 2px;
+    background-color: green;
+    height: 75rem;
+    position: absolute;
+    top: 50%;
+    left: calc(0% + -10rem);
+    width: 100%;
+} */
 /* Client Section */
 
 .client-section-title {
@@ -2228,4 +2243,30 @@ p {
 	padding: 2rem;
 	background-color: #fff;
 	color: #333;
+}
+/* Apply agent modal */
+.modal-fullscreen-xl {
+  padding: 0 !important;
+}
+.modal-fullscreen-xl .modal-dialog {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+.modal-fullscreen-xl .modal-content {
+  height: 100%;
+  border: 0;
+  border-radius: 0;
+}
+.modal-fullscreen-xl .modal-body {
+  overflow-y: auto;
+}
+.modal-fullscreen-xl .close {
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+}
+.modal-fullscreen-xl .close svg {
+    color: #999;
+    width: 3rem;
 }

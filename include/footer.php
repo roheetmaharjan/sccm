@@ -106,6 +106,7 @@
         </div>
     </div>
 </footer>
+<?php include('include/all-modal.php'); ?>
 
 </body>
 

@@ -8,7 +8,7 @@ include('include/header.php'); ?>
                     <h1>Representative Agents</h1>
                     <p>Our approved representative agents can help national and international students find the right course, lodge an application, accept their offer, and provide them with information relating to living in Australia and visa requirements.</p>
                     <a href="#" class="btn btn-outline-light btn-lg">Download agent list</a>
-                    <a href="#" class="btn btn-outline-light btn-lg">Apply for agent</a>
+                    <a href="#apply-for-agent" data-toggle="modal" class="btn btn-outline-light btn-lg">Apply for agent</a>
                 </div>
             </div>
         </div>

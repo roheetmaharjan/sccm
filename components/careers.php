@@ -3,7 +3,7 @@
         <div class="clearfix">
             <h1 class="section-title float-left">We`re hiring</h1>
             <div class="form-group float-right">
-                <select class="form-control form-control-lg">
+                <select class="form-control">
                     <option value="">Kathmandu</option>
                     <option value="">USA</option>
                     <option value="">Singapore</option>
