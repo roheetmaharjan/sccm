@@ -131,6 +131,11 @@ $(document).ready(function() {
         input.addEventListener("blur", remcl);
     });
 
+    //For choose file
+    $('.form-control-file').focus(function () {
+        $(this).closest( ".form-group" ).addClass('focus');
+    })
+
     //Gallery
     $('.video-gallery,.single-column-gallery').magnificPopup({
         delegate: 'a', 

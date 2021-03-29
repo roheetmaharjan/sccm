@@ -9,7 +9,7 @@
                                 L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859
                                 c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287
                                 l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285
-                                L284.286,256.002z"/>
+                                L284.286,256.002z" />
                         </g>
                     </g>
                 </svg>
@@ -19,6 +19,7 @@
                     <form action="">
                         <h1 class="section-title">Apply to become an agent</h1>
                         <a href="#" class="close-apply-form"></a>
+
                         <div class="row">
                             <div class="form-group col-sm-12 col-md-6">
                                 <div class="div">
@@ -90,28 +91,28 @@
                             <div class="form-group col-sm-12 col-md-6">
                                 <div class="div">
                                     <h5>Logo <i class="fas fa-asterisk"></i></h5>
-                                    <input type="file" class="form-control" title=" ">
+                                    <input type="file" class="form-control-file" title=" ">
                                 </div>
                                 <small class="info-label">(Max file size format PNG or JPG)</small>
                             </div>
                             <div class="form-group col-sm-12 col-md-6">
                                 <div class="div">
                                     <h5>Company registraion doc <i class="fas fa-asterisk"></i></h5>
-                                    <input type="file" class="form-control">
+                                    <input type="file" class="form-control-file">
                                 </div>
                                 <small class="info-label">(Max file size format PNG or JPG)</small>
                             </div>
                             <div class="form-group col-sm-12 col-md-6">
                                 <div class="div">
                                     <h5>Company Profile <i class="fas fa-asterisk"></i></h5>
-                                    <input type="file" class="form-control">
+                                    <input type="file" class="form-control-file">
                                 </div>
                                 <small class="info-label">(Max file size format PNG or JPG)</small>
                             </div>
                             <div class="form-group col-sm-12 col-md-6">
                                 <div class="div">
                                     <h5>Certifications <i class="fas fa-asterisk"></i></h5>
-                                    <input type="file" class="form-control">
+                                    <input type="file" class="form-control-file">
                                 </div>
                                 <small class="info-label">(Max file size format PNG or JPG)</small>
                             </div>

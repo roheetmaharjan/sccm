@@ -210,6 +210,7 @@
 	padding: 0 0.5rem;
 	border-bottom: 2px solid #fff;
 	transition: 0.2s all ease;
+	z-index: 11;
 }
 
 .form-group>div>h5 i {
@@ -234,6 +235,51 @@
 	top: -1.5rem;
 	font-size: 1.2rem;
 }
+.form-group input[type="file"],
+.form-group input[type="date"]{
+	color: transparent;
+	line-height: 3.5;
+}
+.form-group.focus input[type="file"],
+.form-group.focus input[type="date"]{
+	color: #879CA7;
+	font-size: 1.2rem;
+}
+.form-group .info-label{
+	font-size: 1.2rem;
+	color: #879CA7;
+}
+
+/**/
+.form-group .focus:before, .form-group .focus:after {
+	width: 50%;
+}
+
+.form-group .focus >h5 {
+	top: -1.5rem;
+	font-size: 1.2rem;
+}
+.form-group .focus input[type="file"],
+.form-group .focus input[type="date"]{
+	color: #879CA7;
+}
+
+/* Form typ file*/
+.form-group .form-control-file {
+	border-width: .2rem;
+	font-size: 1.2rem;
+	min-height: 6rem;
+	border-style: solid;
+	border-radius: 0;
+	color: #879CA7;
+	outline: none;
+	padding: .375rem 2rem;
+	font-style: italic;
+	font-weight: 600;
+	cursor: pointer;
+	border-color: #C5DBE6;
+	transition: 0.3s all ease;
+}
 .form-group input[type="file"]::-webkit-file-upload-button {
   background-color: #D4E6EF;
   border-color: #D4E6EF;
@@ -249,16 +295,6 @@
   height: 100%;
   box-shadow: none;
 }
-.form-group input[type="file"],
-.form-group input[type="date"]{
-	color: transparent;
-	line-height: 3.5;
-}
-.form-group.focus input[type="file"],
-.form-group.focus input[type="date"]{
-	color: #879CA7;
-}
-.form-group .info-label{
-	font-size: 1.2rem;
-	color: #879CA7;
+.wpcf7-form .form-group>div>h5 {
+	z-index: 1;
 }

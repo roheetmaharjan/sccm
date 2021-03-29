@@ -2270,3 +2270,7 @@ p {
     color: #999;
     width: 3rem;
 }
+/* Parrallax bg image fix when accordion is clicked */
+/* .parallax-mirror {
+    height: 100% !important;
+} */
