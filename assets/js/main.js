@@ -114,22 +114,42 @@ $(document).ready(function() {
 
 
     //Form labels
+    // const inputs = document.querySelectorAll(".form-control");
+
+    // function addcl(){
+    //     let parent = this.parentNode.parentNode;
+    //     parent.classList.add("focus");
+    // }
+    // function remcl(){
+    //     let parent = this.parentNode.parentNode;
+    //     if(this.value == ""){
+    //         parent.classList.remove("focus");
+    //     }
+    // }
+    // inputs.forEach(input => {
+    //     input.addEventListener("focus", addcl);
+    //     input.addEventListener("blur", remcl);
+    // });
+
+
+    //Form labels Version 2
     const inputs = document.querySelectorAll(".form-control");
 
     function addcl(){
-        let parent = this.parentNode.parentNode;
-        parent.classList.add("focus");
+        let closest = this.closest(".form-group");
+        closest.classList.add("focus");
     }
     function remcl(){
-        let parent = this.parentNode.parentNode;
+        let closest = this.closest(".form-group");
         if(this.value == ""){
-            parent.classList.remove("focus");
+            closest.classList.remove("focus");
         }
     }
     inputs.forEach(input => {
         input.addEventListener("focus", addcl);
         input.addEventListener("blur", remcl);
     });
+
 
     //For choose file
     $('.form-control-file').focus(function () {
