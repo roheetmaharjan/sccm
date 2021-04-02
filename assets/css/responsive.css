@@ -62,6 +62,16 @@
     .radial-green-section .btn {
         margin-bottom: 2rem;
     }
+    .inner-page .col-3,.inner-page .col-9.pl-12 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 2rem;
+    }
+    .box-with-text {
+        margin-top: 2rem;
+    }
 }
 @media(max-width: 414px) {
     div.our_p {
