@@ -14,6 +14,9 @@
 }
 
 @media(max-width:768px) {
+    body{
+        overflow-x: hidden;
+    }
     html {
         font-size: 45.5%
     }
@@ -22,7 +25,6 @@
     }
     #header .header-top ul {
         text-align: center;
-        float: none !important;
     }
     .box-with-bg-img figure {
         min-height: 45.5rem;
@@ -34,10 +36,35 @@
         max-width: 100%;
         text-align: center;
     }
+    .social.float-left {
+        float: none !important;
+        text-align: center;
+    }
+    .header-top .col-xs-12.col-sm-12.col-md-9 {
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    .step .step-icon {
+        min-width: 15rem;
+    }
+    .inner-page {
+        padding-top: 20rem;
+    }
+    .pl-12 {
+        padding-left: 5rem;
+    }
 }
 
 @media(max-width: 640px) {
     .radial-green-section .btn {
         margin-bottom: 2rem;
+    }
+}
+@media(max-width: 414px) {
+    div.our_p {
+        margin-bottom: 0;
     }
 }
