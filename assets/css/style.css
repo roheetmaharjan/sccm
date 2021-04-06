@@ -1967,19 +1967,22 @@ p {
 /* How to step */
 
 .how-to-steps {
-	display: grid;
+	display: flex;
+	display: -webkit-box;
+    display: -ms-flexbox;
 	max-width: 95rem;
 	margin: 0 auto;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 10rem;
+	gap: 10rem;
 	text-align: center;
-	justify-items: center;
+	justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 @media(max-width: 595px){
-	.how-to-steps {
+	/* .how-to-steps {
 		grid-template-columns: 1fr;
 		grid-gap: none
-	}
+	} */
 }
 .how-to-steps-wrp .step-selector {
     max-width: 95rem;
@@ -1998,11 +2001,14 @@ p {
 }
 
 .how-to-step {
-	background-color: #fff;
-	padding: 5rem 3rem;
-	text-align: center;
-	min-height: 64rem;
-	position: relative;
+    background-color: #fff;
+    padding: 5rem 3rem;
+    text-align: center;
+    flex: 0 0 calc(50% - 5rem);
+    max-width: calc(50% - 5rem);
+    min-height: 64rem;
+    position: relative;
+	margin-bottom: 10rem;
 }
 
 .how-to-step .step-number {
@@ -2028,7 +2034,20 @@ p {
 	font-size: 1.5rem;
 	color: #333;
 }
-
+.how-to-step:nth-child(3){
+	flex-direction: row-reverse;
+}
+.how-to-step:nth-child(2n+2):before {
+    content: '';
+    display: block;
+    max-width: 10rem;
+    background-color: green;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: -10rem;
+}
 /* .how-to-step:after {
 	content: '';
 	display: block;
@@ -2269,6 +2288,16 @@ p {
 .modal-fullscreen-xl .close svg {
     color: #999;
     width: 3rem;
+}
+.modal, .modal.show {
+	max-height: 0;       
+	-webkit-transition: max-height 0.5s ease-in-out;
+	-moz-transition: max-height 0.5s ease-in-out;
+	-o-transition: max-height 0.5s ease-in-out;
+	transition: max-height 0.5s ease-in-out;
+}
+.modal.show {            
+	max-height: 100% ;                    
 }
 /* Parrallax bg image fix when accordion is clicked */
 /* .parallax-mirror {

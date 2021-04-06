@@ -298,3 +298,7 @@
 .wpcf7-form .form-group>div>h5 {
 	z-index: 1;
 }
+.wpcf7-form-control-wrap {
+    position: relative;
+    display: block;
+}
