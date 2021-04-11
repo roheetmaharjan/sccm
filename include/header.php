@@ -36,6 +36,8 @@
 	<link rel="stylesheet" href="assets/css/pages.css">
 	<link rel="stylesheet" href="assets/css/banner.css">
 	<link rel="stylesheet" href="assets/css/responsive.css">
+	<!-- New Css -->
+	<link rel="stylesheet" href="assets/css/application-form.css">
 
 
 	<!-- Plugins -->
@@ -120,7 +122,7 @@
 							</a>
 							<div class="menu-mobile-collapse-trigger"><span></span></div>
 							<div class="menu-nav-right text-right float-right">
-								<div class="apply-btn mb-3"><a href="#" class="btn btn-outline-light">Apply</a></div>
+								<div class="apply-btn mb-3"><a href="#application-form" data-toggle="modal" class="btn btn-outline-light">Apply</a></div>
 								<!-- menu links -->
 								<ul class="menu-links menu-links-align-right">
 									<!-- active class -->
@@ -329,7 +331,7 @@
 															<h4><a href="./how-to-apply.php">How to apply</a></h4>
 														</div>
 														<div class="grid-col-4">
-															<h4><a href="#">Apply now</a></h4>
+															<h4><a href="">Apply now</a></h4>
 														</div>
 														<div class="grid-col-4">
 															<h4><a href="./pathway-partners.php">Pathways</a></h4>

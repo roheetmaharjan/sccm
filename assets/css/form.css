@@ -40,7 +40,7 @@
 
 .form-control {
 	border-width: 2px;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	min-height: 6rem;
 	border-radius: 0;
 	color: #879CA7;
@@ -301,4 +301,149 @@
 .wpcf7-form-control-wrap {
     position: relative;
     display: block;
+}
+
+/*---Radio button--*/
+.custom-radio {
+    margin-right: 4rem;
+}
+.custom-radio [type="radio"]:checked,
+.custom-radio [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.custom-radio [type="radio"]:checked + label,
+.custom-radio [type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+.custom-radio [type="radio"]:checked + label:before,
+.custom-radio [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+.custom-radio [type="radio"]:checked + label:after,
+.custom-radio [type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #21A690;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.custom-radio [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.custom-radio [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/* Radio select box */
+
+.select-box-button {
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.select-box-button input {
+    display: none;
+}
+
+.select-box-button label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    border: 0.3rem solid #eee;
+    background-color: #fff;
+    min-height: 20rem;
+    text-align: center;
+    padding: 2rem;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+
+.select-box-button label svg {
+    width: 7rem;
+    margin-bottom: 1rem;
+}
+
+.select-box-button label:hover {
+    box-shadow: 1px 1px 5px rgb(183, 183, 183, 0.5);
+}
+
+.select-box-button label h5 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.select-box-button label p {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.select-box-button input:checked~label {
+    border-color: #21A690;
+    background-color: #ffffff;
+}
+
+.select-box-button input:checked~label:after {
+    content: '\f30b';
+    color: #21A690;
+    font-family: FontAwesome;
+    font-size: 1.6rem;
+    display: inline-block;
+}
+
+/* radio select button */
+
+.select-button input {
+    display: none;
+}
+
+.select-button label {
+    display: block;
+    position: relative;
+    font-size: 1.5rem;
+    min-width: 10rem;
+}
+
+.select-button input~label:after {
+    content: 'Select';
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    background: #D90000;
+    border: 2px solid #D90000;
+    color: #fff;
+}
+
+.select-button input:checked~label:after {
+    content: 'Selected';
+    background: #21A690;
+    color: #fff;
+    border-color: #21A690
 }

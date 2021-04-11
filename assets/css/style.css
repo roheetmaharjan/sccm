@@ -2284,6 +2284,7 @@ p {
     position: absolute;
     top: 5rem;
     right: 5rem;
+	z-index: 111;
 }
 .modal-fullscreen-xl .close svg {
     color: #999;
