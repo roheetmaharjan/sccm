@@ -210,7 +210,7 @@ $(document).on('scroll',function(){
 $(document).ready(function(){
 
 	$('a[id^=link]').click(function(){
-        // $('a[id^=link]').removeClass('active');
+        $('a[id^=link]').removeClass('active');
         $(this).addClass('active');
         
             $('#infocontent>div').slideUp();
@@ -218,6 +218,12 @@ $(document).ready(function(){
             var tmp = this.id;
         $('#'+tmp+'content').slideDown();
     }); //end a.click
+
+    $('.application-nav.with-sub-title a').click(function() {
+        if ($('.application-nav.with-sub-title a').hasClass('active')){
+            $(this).parents().addClass("active");
+        }
+    });
 });
 
 

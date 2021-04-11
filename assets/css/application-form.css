@@ -69,16 +69,22 @@
     font-size: 3rem;
     display: none;
 }
-.application-nav-left .application-nav-list .application-nav.with-title a.active .application-number{
+.application-nav-left .application-nav-list .application-nav.with-title.active .application-nav.with-sub-title{
+    display: block
+}
+.application-nav-left .application-nav-list .application-nav.with-title a.active .application-number,
+.application-nav-left .application-nav-list .application-nav.with-title.active .application-number{
     border-color: #333;
 }
-.application-nav-left .application-nav-list .application-nav.with-title a.active {
+.application-nav-left .application-nav-list .application-nav.with-title a.active,
+.application-nav-left .application-nav-list .application-nav.with-title.active {
     color: #333;
 }
 .application-nav-left .application-nav-list .application-nav.with-title a.active + .application-nav.with-sub-title{
     display: block;
 }
-.application-nav-left .application-nav-list .application-nav.with-title a.active .arrow-right{
+.application-nav-left .application-nav-list .application-nav.with-title a.active .arrow-right,
+.application-nav-left .application-nav-list .application-nav.with-title.active .arrow-right{
     display: block
 }
 .application-nav-left .application-nav-list .application-nav.with-sub-title a.active{
