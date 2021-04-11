@@ -43,6 +43,7 @@
                     </g>
                 </svg>
                 <p>Apply as an agent</p>
+                <i class="fas fa-long-arrow-alt-right"></i>
             </label>
         </div>
     </div>
@@ -76,6 +77,7 @@
                     </g>
                 </svg>
                 <p>Create business listing</p>
+                <i class="fas fa-long-arrow-alt-right"></i>
             </label>
         </div>
     </div>

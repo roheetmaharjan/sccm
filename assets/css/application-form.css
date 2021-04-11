@@ -27,8 +27,8 @@
 }
 .application-nav-left .application-nav-list {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 9rem 0;
 }
 .application-nav-left .application-nav-list .application-nav.with-title{
     font-size: 2rem;
@@ -84,7 +84,10 @@
 .application-nav-left .application-nav-list .application-nav.with-sub-title a.active{
     color: #21A690;
 }
-
+.application-nav-left .copyright{
+    position: absolute;
+    bottom: 0;
+}
 /* course */
 .course-select-list{
     list-style: none;

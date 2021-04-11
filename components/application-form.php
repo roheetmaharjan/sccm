@@ -123,6 +123,7 @@
                         <a id="link13" class="" href="javascript:void(0)"><span class="application-number">5</span> Summary <span class="arrow-right"><i class="fas fa-long-arrow-alt-right"></i></span></a>
                     </li>
                 </ul>
+                <p class="copyright"><small>RTO ID : 45203,CRICOS Code : 03620C ABN: 89 606 547 611 SCCM 2020 / All Rights Reserved</small></p>
             </div>
         </div>
         <div class="col-sm-12 col-md-8">

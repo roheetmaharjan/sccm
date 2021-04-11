@@ -266,19 +266,20 @@
 
 /* Form typ file*/
 .form-group .form-control-file {
-	border-width: .2rem;
-	font-size: 1.2rem;
-	min-height: 6rem;
-	border-style: solid;
-	border-radius: 0;
-	color: #879CA7;
-	outline: none;
-	padding: .375rem 2rem;
-	font-style: italic;
-	font-weight: 600;
-	cursor: pointer;
-	border-color: #C5DBE6;
-	transition: 0.3s all ease;
+    border-width: .2rem;
+    font-size: 1.2rem;
+    min-height: 6rem;
+    border-style: solid;
+    border-radius: 0;
+    color: #879CA7;
+    outline: none;
+    padding: .375rem 2rem;
+    font-style: italic;
+    background: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    border-color: #C5DBE6;
+    transition: 0.3s all ease;
 }
 .form-group input[type="file"]::-webkit-file-upload-button {
   background-color: #D4E6EF;
@@ -406,13 +407,13 @@
     border-color: #21A690;
     background-color: #ffffff;
 }
-
-.select-box-button input:checked~label:after {
-    content: '\f30b';
-    color: #21A690;
-    font-family: FontAwesome;
-    font-size: 1.6rem;
-    display: inline-block;
+.select-box-button label i {
+    display: none;
+	margin-top: 1rem;
+	font-size: 2rem
+}
+.select-box-button input:checked~label i {
+    display: inline-block
 }
 
 /* radio select button */
