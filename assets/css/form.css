@@ -448,3 +448,119 @@
     color: #fff;
     border-color: #21A690
 }
+/* Application form */
+
+.application-form .application-form-content {
+    padding: 8rem 7rem;
+    min-height: calc(100vh - 12rem);
+}
+
+.application-form-title {
+    margin-bottom: 7rem;
+    max-width: 70rem;
+    width: 100%;
+}
+
+.application-form-footer {
+    padding: 3rem 7rem;
+    background-color: #E9F4F9;
+}
+
+.application-nav-left {
+    padding: 7rem 5rem;
+    background: #fff;
+    min-height: 100vh;
+}
+.application-nav-left .application-logo {
+    margin-bottom: 4rem;
+    max-width: 25rem;
+}
+.application-nav-left .application-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 9rem 0;
+}
+.application-nav-left .application-nav-list .application-nav.with-title{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #999999;
+    position: relative;
+}
+.application-nav-left .application-nav-list .application-nav.with-title a{
+    color: #999;
+    text-decoration: none;
+}
+.application-nav-left .application-nav-list .application-nav.with-sub-title {
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    color: #999;
+    list-style: none;
+    padding-left: 6rem;
+    display: none;
+}
+.application-nav-left .application-nav-list .application-nav.with-sub-title li {
+    margin: 1.5rem 0;
+}
+.application-nav-left .application-nav-list .application-nav.with-title .application-number {
+    width: 4rem;
+    height: 4rem;
+    display: inline-block;
+    border: 1px solid #999999;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+}
+.application-nav-left .application-nav-list .application-nav.with-title .arrow-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 3rem;
+    display: none;
+}
+.application-nav-left .application-nav-list .application-nav.with-title.active .application-nav.with-sub-title{
+    display: block
+}
+.application-nav-left .application-nav-list .application-nav.with-title a.active .application-number,
+.application-nav-left .application-nav-list .application-nav.with-title.active .application-number{
+    border-color: #333;
+}
+.application-nav-left .application-nav-list .application-nav.with-title a.active,
+.application-nav-left .application-nav-list .application-nav.with-title.active {
+    color: #333;
+}
+.application-nav-left .application-nav-list .application-nav.with-title a.active + .application-nav.with-sub-title{
+    display: block;
+}
+.application-nav-left .application-nav-list .application-nav.with-title a.active .arrow-right,
+.application-nav-left .application-nav-list .application-nav.with-title.active .arrow-right{
+    display: block
+}
+.application-nav-left .application-nav-list .application-nav.with-sub-title a.active{
+    color: #21A690;
+}
+.application-nav-left .copyright{
+    position: absolute;
+    bottom: 0;
+}
+/* course */
+.course-select-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.course-select-list li{
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+.course-select-list li .course-name{
+    font-size: 2rem;
+    margin-bottom: 0;
+    color: #21A690;
+    margin-top: 1rem;
+    float: left;
+}
+
+#infocontent>div{display:none;}

@@ -36,8 +36,6 @@
 	<link rel="stylesheet" href="assets/css/pages.css">
 	<link rel="stylesheet" href="assets/css/banner.css">
 	<link rel="stylesheet" href="assets/css/responsive.css">
-	<!-- New Css -->
-	<link rel="stylesheet" href="assets/css/application-form.css">
 
 
 	<!-- Plugins -->
@@ -71,6 +69,7 @@
 
 	<!-- Custom Js-->
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/form.js"></script>
 </head>
 
 <body>

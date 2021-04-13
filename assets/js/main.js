@@ -186,44 +186,11 @@ $(document).ready(function() {
         $( this ).toggleClass( "active" );
         $(".menu-links").toggleClass("show");
     });
-
-    $('.custom-radio input[type="radio"]').click(function() {
-        var inputValue = $(this).attr("value");
-        var targetBox = $("." + inputValue);
-        $(".hidden-box").not(targetBox).hide();
-        $(targetBox).show();
-    });
-
-
-    // Steps
-    $(".application-form.step_1 .next_btn").click(function(){
-        $(".application-form step_2").show();
-        $(".application-form step_1").hide();
-        // alert('hello');
-    });
 });
 //Moving Text on scroll
 $(document).on('scroll',function(){
     $('.overlay-text').css("left",Math.max(1350 - 0.35*window.scrollY) + "px");
 })
 
-$(document).ready(function(){
-
-	$('a[id^=link]').click(function(){
-        $('a[id^=link]').removeClass('active');
-        $(this).addClass('active');
-        
-            $('#infocontent>div').slideUp();
-
-            var tmp = this.id;
-        $('#'+tmp+'content').slideDown();
-    }); //end a.click
-
-    $('.application-nav.with-sub-title a').click(function() {
-        if ($('.application-nav.with-sub-title a').hasClass('active')){
-            $(this).parents().addClass("active");
-        }
-    });
-});
 
 

@@ -7,23 +7,23 @@
     <div class="row">
         <div class="col-sm-6 col-md-4">
             <h6 class="text-green mb-1">Name</h6>
-            <p class="mb-0"><small>Ms Princess Hadjail</small></p>
+            <p class="mb-2"><small>Ms Princess Hadjail</small></p>
         </div>
         <div class="col-sm-6 col-md-4">
             <h6 class="text-green mb-1">Email:</h6>
-            <p class="mb-0"><small>email@gmail.com</small></p>
+            <p class="mb-2"><small>email@gmail.com</small></p>
         </div>
         <div class="col-sm-6 col-md-4">
             <h6 class="text-green mb-1">Passport:</h6>
-            <p class="mb-0"><small>P5247565</small></p>
+            <p class="mb-2"><small>P5247565</small></p>
         </div>
         <div class="col-sm-6 col-md-4">
             <h6 class="text-green mb-1">Nationality:</h6>
-            <p class="mb-0"><small>Nepal</small></p>
+            <p class="mb-2"><small>Nepal</small></p>
         </div>
         <div class="col-sm-6 col-md-4">
             <h6 class="text-green mb-1">DOB:</h6>
-            <p class="mb-0"><small>04/09/1996</small></p>
+            <p class="mb-2"><small>04/09/1996</small></p>
         </div>
     </div>
 </div>
@@ -33,31 +33,31 @@
     <div class="row">
         <div class="col-sm-6 col-md-4">
             <h6 class="text-green mb-1">Subject</h6>
-            <p class="mb-0"><small>Ms Princess Hadjail</small></p>
+            <p class="mb-2"><small>Ms Princess Hadjail</small></p>
         </div>
         <div class="col-sm-6 col-md-8">
             <h6 class="text-green mb-1">Course Name:</h6>
-            <p class="mb-0"><small>$course.name</small></p>
+            <p class="mb-2"><small>$course.name</small></p>
         </div>
         <div class="col-sm-6 col-md-4">
             <h6 class="text-green mb-1">Course Start:</h6>
-            <p class="mb-0"><small>16/08/2021</small></p>
+            <p class="mb-2"><small>16/08/2021</small></p>
         </div>
         <div class="col-sm-6 col-md-4">
             <h6 class="text-green mb-1">Course Start:</h6>
-            <p class="mb-0"><small>16/08/2021</small></p>
+            <p class="mb-2"><small>16/08/2021</small></p>
         </div>
         <div class="col-sm-6 col-md-4">
             <h6 class="text-green mb-1">Course Shift:</h6>
-            <p class="mb-0"><small>Monday - Tuesday</small></p>
+            <p class="mb-2"><small>Monday - Tuesday</small></p>
         </div>
         <div class="col-sm-6 col-md-4">
             <h6 class="text-green mb-1">Academic Week:</h6>
-            <p class="mb-0"><small>14</small></p>
+            <p class="mb-2"><small>14</small></p>
         </div>
         <div class="col-sm-6 col-md-4">
             <h6 class="text-green mb-1">Calendar Weeks:</h6>
-            <p class="mb-0"><small>28</small></p>
+            <p class="mb-2"><small>28</small></p>
         </div>
     </div>
 </div>
@@ -65,31 +65,31 @@
     <div class="row">
         <div class="col-sm-6 col-md-4">
             <h6 class="text-green mb-1">Subject</h6>
-            <p class="mb-0"><small>Ms Princess Hadjail</small></p>
+            <p class="mb-2"><small>Ms Princess Hadjail</small></p>
         </div>
         <div class="col-sm-6 col-md-8">
             <h6 class="text-green mb-1">Course Name:</h6>
-            <p class="mb-0"><small>$course.name</small></p>
+            <p class="mb-2"><small>$course.name</small></p>
         </div>
         <div class="col-sm-6 col-md-4">
             <h6 class="text-green mb-1">Course Start:</h6>
-            <p class="mb-0"><small>16/08/2021</small></p>
+            <p class="mb-2"><small>16/08/2021</small></p>
         </div>
         <div class="col-sm-6 col-md-4">
             <h6 class="text-green mb-1">Course Start:</h6>
-            <p class="mb-0"><small>16/08/2021</small></p>
+            <p class="mb-2"><small>16/08/2021</small></p>
         </div>
         <div class="col-sm-6 col-md-4">
             <h6 class="text-green mb-1">Course Shift:</h6>
-            <p class="mb-0"><small>Monday - Tuesday</small></p>
+            <p class="mb-2"><small>Monday - Tuesday</small></p>
         </div>
         <div class="col-sm-6 col-md-4">
             <h6 class="text-green mb-1">Academic Week:</h6>
-            <p class="mb-0"><small>14</small></p>
+            <p class="mb-2"><small>14</small></p>
         </div>
         <div class="col-sm-6 col-md-4">
             <h6 class="text-green mb-1">Calendar Weeks:</h6>
-            <p class="mb-0"><small>28</small></p>
+            <p class="mb-2"><small>28</small></p>
         </div>
     </div>
 </div>
